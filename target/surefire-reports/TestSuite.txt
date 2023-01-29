@@ -1,0 +1,383 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 97, Failures: 42, Errors: 0, Skipped: 0, Time elapsed: 110.593 sec <<< FAILURE!
+testUpdateActorTable(databasetests.UpdateTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.UpdateTest.testUpdateActorTable(UpdateTest.java:43)
+
+testUpdateActorTable(databasetests.UpdateTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.UpdateTest.testUpdateActorTable(UpdateTest.java:43)
+
+testUpdateActorTable(databasetests.UpdateTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.UpdateTest.testUpdateActorTable(UpdateTest.java:43)
+
+testZeroCageActorExists(databasetests.SelectTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.SelectTest.testZeroCageActorExists(SelectTest.java:19)
+
+testInsert10Records(databasetests.InsertTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.InsertTest.testInsert10Records(InsertTest.java:101)
+
+testInsert10Records(databasetests.InsertTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.InsertTest.testInsert10Records(InsertTest.java:101)
+
+testInsertActor(databasetests.InsertTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.InsertTest.testInsertActor(InsertTest.java:45)
+
+testInsertActor(databasetests.InsertTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.InsertTest.testInsertActor(InsertTest.java:45)
+
+testInsertActor(databasetests.InsertTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.InsertTest.testInsertActor(InsertTest.java:45)
+
+testInsertActor(databasetests.InsertTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.InsertTest.testInsertActor(InsertTest.java:45)
+
+testInsertActor(databasetests.InsertTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.InsertTest.testInsertActor(InsertTest.java:45)
+
+testInsertActor(databasetests.InsertTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.InsertTest.testInsertActor(InsertTest.java:45)
+
+testInsertActor(databasetests.InsertTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.InsertTest.testInsertActor(InsertTest.java:45)
+
+testInsertActor(databasetests.InsertTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.InsertTest.testInsertActor(InsertTest.java:45)
+
+testInsertActor(databasetests.InsertTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.InsertTest.testInsertActor(InsertTest.java:45)
+
+testInsertActor(databasetests.InsertTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.InsertTest.testInsertActor(InsertTest.java:45)
+
+testTablesNumberOfRows(databasetests.NumberOfRowsTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.NumberOfRowsTest.testTablesNumberOfRows(NumberOfRowsTest.java:32)
+
+testTablesNumberOfRows(databasetests.NumberOfRowsTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.NumberOfRowsTest.testTablesNumberOfRows(NumberOfRowsTest.java:32)
+
+testTablesNumberOfRows(databasetests.NumberOfRowsTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.NumberOfRowsTest.testTablesNumberOfRows(NumberOfRowsTest.java:32)
+
+testTablesNumberOfRows(databasetests.NumberOfRowsTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.NumberOfRowsTest.testTablesNumberOfRows(NumberOfRowsTest.java:32)
+
+testTablesNumberOfRows(databasetests.NumberOfRowsTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.NumberOfRowsTest.testTablesNumberOfRows(NumberOfRowsTest.java:32)
+
+testTablesNumberOfRows(databasetests.NumberOfRowsTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.NumberOfRowsTest.testTablesNumberOfRows(NumberOfRowsTest.java:32)
+
+testTablesNumberOfRows(databasetests.NumberOfRowsTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.NumberOfRowsTest.testTablesNumberOfRows(NumberOfRowsTest.java:32)
+
+testDeleteActorById(databasetests.DeleteTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.DeleteTest.testDeleteActorById(DeleteTest.java:23)
+
+testDeleteActorById(databasetests.DeleteTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.DeleteTest.testDeleteActorById(DeleteTest.java:23)
+
+testDeleteActorById(databasetests.DeleteTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.DeleteTest.testDeleteActorById(DeleteTest.java:23)
+
+testDeleteActorById(databasetests.DeleteTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.DeleteTest.testDeleteActorById(DeleteTest.java:23)
+
+testDeleteActorById(databasetests.DeleteTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.DeleteTest.testDeleteActorById(DeleteTest.java:23)
+
+testDeleteActorById(databasetests.DeleteTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.DeleteTest.testDeleteActorById(DeleteTest.java:23)
+
+testDeleteActorById(databasetests.DeleteTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.DeleteTest.testDeleteActorById(DeleteTest.java:23)
+
+testDeleteActorById(databasetests.DeleteTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.DeleteTest.testDeleteActorById(DeleteTest.java:23)
+
+testDeleteActorById(databasetests.DeleteTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.DeleteTest.testDeleteActorById(DeleteTest.java:23)
+
+testDeleteActorById(databasetests.DeleteTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.DeleteTest.testDeleteActorById(DeleteTest.java:23)
+
+testDeleteFromActorTableWhereIdIsHigher200(databasetests.DeleteTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at databasetests.DeleteTest.testDeleteFromActorTableWhereIdIsHigher200(DeleteTest.java:59)
+
+test_04_delete(backendtests.DataDrivenTest)  Time elapsed: 0.457 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void org.hamcrest.Matcher.describeMismatch(java.lang.Object, org.hamcrest.Description)'
+	at io.restassured.internal.util.MatcherErrorMessageBuilder.buildError(MatcherErrorMessageBuilder.java:35)
+	at io.restassured.internal.util.MatcherErrorMessageBuilder$buildError.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy:569)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.this$2$validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:490)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at backendtests.DataDrivenTest.test_04_delete(DataDrivenTest.java:48)
+
+test_04_delete(backendtests.DataDrivenTest)  Time elapsed: 0.244 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void org.hamcrest.Matcher.describeMismatch(java.lang.Object, org.hamcrest.Description)'
+	at io.restassured.internal.util.MatcherErrorMessageBuilder.buildError(MatcherErrorMessageBuilder.java:35)
+	at io.restassured.internal.util.MatcherErrorMessageBuilder$buildError.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy:569)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.this$2$validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:490)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at backendtests.DataDrivenTest.test_04_delete(DataDrivenTest.java:48)
+
+test_04_delete(backendtests.DataDrivenTest)  Time elapsed: 0.224 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void org.hamcrest.Matcher.describeMismatch(java.lang.Object, org.hamcrest.Description)'
+	at io.restassured.internal.util.MatcherErrorMessageBuilder.buildError(MatcherErrorMessageBuilder.java:35)
+	at io.restassured.internal.util.MatcherErrorMessageBuilder$buildError.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy:569)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.this$2$validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:490)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at backendtests.DataDrivenTest.test_04_delete(DataDrivenTest.java:48)
+
+test_04_delete(backendtests.DeleteTest)  Time elapsed: 0.214 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void org.hamcrest.Matcher.describeMismatch(java.lang.Object, org.hamcrest.Description)'
+	at io.restassured.internal.util.MatcherErrorMessageBuilder.buildError(MatcherErrorMessageBuilder.java:35)
+	at io.restassured.internal.util.MatcherErrorMessageBuilder$buildError.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy:569)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.this$2$validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:490)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at backendtests.DeleteTest.test_04_delete(DeleteTest.java:30)
+
+test_04_delete(backendtests.DeleteTest)  Time elapsed: 0.225 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void org.hamcrest.Matcher.describeMismatch(java.lang.Object, org.hamcrest.Description)'
+	at io.restassured.internal.util.MatcherErrorMessageBuilder.buildError(MatcherErrorMessageBuilder.java:35)
+	at io.restassured.internal.util.MatcherErrorMessageBuilder$buildError.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy:569)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.this$2$validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:490)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at backendtests.DeleteTest.test_04_delete(DeleteTest.java:48)
+
+test_04_delete(backendtests.DeleteTest)  Time elapsed: 0.236 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void org.hamcrest.Matcher.describeMismatch(java.lang.Object, org.hamcrest.Description)'
+	at io.restassured.internal.util.MatcherErrorMessageBuilder.buildError(MatcherErrorMessageBuilder.java:35)
+	at io.restassured.internal.util.MatcherErrorMessageBuilder$buildError.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy:569)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.this$2$validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:490)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at backendtests.DeleteTest.test_04_delete(DeleteTest.java:48)
+
+test_04_delete(backendtests.DeleteTest)  Time elapsed: 0.221 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void org.hamcrest.Matcher.describeMismatch(java.lang.Object, org.hamcrest.Description)'
+	at io.restassured.internal.util.MatcherErrorMessageBuilder.buildError(MatcherErrorMessageBuilder.java:35)
+	at io.restassured.internal.util.MatcherErrorMessageBuilder$buildError.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy:569)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.this$2$validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:490)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at backendtests.DeleteTest.test_04_delete(DeleteTest.java:48)
+
+test_03_patch(backendtests.PatchTest)  Time elapsed: 0.259 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void org.hamcrest.Matcher.describeMismatch(java.lang.Object, org.hamcrest.Description)'
+	at io.restassured.internal.util.MatcherErrorMessageBuilder.buildError(MatcherErrorMessageBuilder.java:35)
+	at io.restassured.internal.util.MatcherErrorMessageBuilder$buildError.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy:569)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.this$2$validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:490)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at backendtests.PatchTest.test_03_patch(PatchTest.java:45)
+

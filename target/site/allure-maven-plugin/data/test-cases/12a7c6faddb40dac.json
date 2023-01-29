@@ -1,0 +1,93 @@
+{
+  "uid" : "12a7c6faddb40dac",
+  "name" : "test_02",
+  "fullName" : "backendtests.PutTest.test_02",
+  "historyId" : "b6c5d765e41d10e51957873e1a085a36",
+  "time" : {
+    "start" : 1675002528480,
+    "stop" : 1675002528480,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "connect",
+    "time" : {
+      "start" : 1675002422761,
+      "stop" : 1675002422988,
+      "duration" : 227
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "disconnect",
+    "time" : {
+      "start" : 1675002532498,
+      "stop" : 1675002532499,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "backendtests.PutTest"
+  }, {
+    "name" : "testClass",
+    "value" : "backendtests.PutTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_02"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "backendtests.PutTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "18254@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12a7c6faddb40dac.json",
+  "parameterValues" : [ ]
+}

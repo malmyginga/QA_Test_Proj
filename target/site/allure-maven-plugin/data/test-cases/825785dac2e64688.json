@@ -1,0 +1,125 @@
+{
+  "uid" : "825785dac2e64688",
+  "name" : "testAdminTopbarMenuJobDropdownSizeIs5",
+  "fullName" : "webtests.AdminTabTest.testAdminTopbarMenuJobDropdownSizeIs5",
+  "historyId" : "8340b62209131bc0a0dab8110492d0e8",
+  "time" : {
+    "start" : 1675002500232,
+    "stop" : 1675002500555,
+    "duration" : 323
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "connect",
+    "time" : {
+      "start" : 1675002422761,
+      "stop" : 1675002422988,
+      "duration" : 227
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "openTestingPage",
+    "time" : {
+      "start" : 1675002494379,
+      "stop" : 1675002500219,
+      "duration" : 5840
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "disconnect",
+    "time" : {
+      "start" : 1675002532498,
+      "stop" : 1675002532499,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeTestingPage",
+    "time" : {
+      "start" : 1675002500556,
+      "stop" : 1675002500682,
+      "duration" : 126
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "webtests.AdminTabTest"
+  }, {
+    "name" : "testClass",
+    "value" : "webtests.AdminTabTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAdminTopbarMenuJobDropdownSizeIs5"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "webtests.AdminTabTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "18254@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "825785dac2e64688.json",
+  "parameterValues" : [ ]
+}

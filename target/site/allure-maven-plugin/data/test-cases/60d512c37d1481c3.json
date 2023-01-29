@@ -1,0 +1,93 @@
+{
+  "uid" : "60d512c37d1481c3",
+  "name" : "testSingleUser",
+  "fullName" : "backendtests.GetTest.testSingleUser",
+  "historyId" : "4c150e4f0c407e5e57b2859ee3593004",
+  "time" : {
+    "start" : 1675002527771,
+    "stop" : 1675002528020,
+    "duration" : 249
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "connect",
+    "time" : {
+      "start" : 1675002422761,
+      "stop" : 1675002422988,
+      "duration" : 227
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "disconnect",
+    "time" : {
+      "start" : 1675002532498,
+      "stop" : 1675002532499,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "backendtests.GetTest"
+  }, {
+    "name" : "testClass",
+    "value" : "backendtests.GetTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSingleUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "backendtests.GetTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "18254@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60d512c37d1481c3.json",
+  "parameterValues" : [ ]
+}

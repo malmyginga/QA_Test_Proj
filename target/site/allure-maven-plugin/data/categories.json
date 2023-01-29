@@ -1,0 +1,473 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "testUpdateActorTable",
+        "uid" : "799e70f58f9b9c23",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423272,
+          "stop" : 1675002423274,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ "Mervin", "Herzog", "Wilderman" ]
+      }, {
+        "name" : "testUpdateActorTable",
+        "uid" : "ff8730da22e049da",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423277,
+          "stop" : 1675002423277,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Rodrick", "Murray", "Schinner" ]
+      }, {
+        "name" : "testUpdateActorTable",
+        "uid" : "ef9b168ba99f921d",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423280,
+          "stop" : 1675002423280,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Huey", "Beahan", "Bashirian" ]
+      }, {
+        "name" : "testZeroCageActorExists",
+        "uid" : "8327a01fb4c3e54b",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423283,
+          "stop" : 1675002423283,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testInsert10Records",
+        "uid" : "32bfc90db71b8990",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423326,
+          "stop" : 1675002423326,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "[Actor{firstName='Carlota', lastName='Grimes'}, Actor{firstName='Stephen', lastName='Kshlerin'}, Actor{firstName='Malcom', lastName='Kuhn'}, Actor{firstName='Evie', lastName='Koepp'}, Actor{firstName='Roger', lastName='Sporer'}, Actor{firstName='Brunilda', lastName='Gerhold'}, Actor{firstName='Kathaleen', lastName='Fritsch'}, Actor{firstName='Livia', lastName='Homenick'}, Actor{firstName='Clemente', lastName='Kshlerin'}, Actor{firstName='Carol', lastName='Zieme'}]" ]
+      }, {
+        "name" : "testInsert10Records",
+        "uid" : "4b1f4395acfdd30c",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423328,
+          "stop" : 1675002423329,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "[Actor{firstName='Khalilah', lastName='Maggio'}, Actor{firstName='Darrel', lastName='Morissette'}, Actor{firstName='Kiley', lastName='Runolfsdottir'}, Actor{firstName='Lala', lastName='Blanda'}, Actor{firstName='Leone', lastName='Lubowitz'}, Actor{firstName='Nicola', lastName='Wiza'}, Actor{firstName='Violette', lastName='Corkery'}, Actor{firstName='Oren', lastName='Pfannerstill'}, Actor{firstName='Isabelle', lastName='Steuber'}, Actor{firstName='Wesley', lastName='Jenkins'}]" ]
+      }, {
+        "name" : "testInsertActor",
+        "uid" : "d2a4310bb8e8cd20",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423364,
+          "stop" : 1675002423364,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Emerson", "Pollich" ]
+      }, {
+        "name" : "testInsertActor",
+        "uid" : "a113e48c7e9af6c2",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423366,
+          "stop" : 1675002423367,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "Robert", "Effertz" ]
+      }, {
+        "name" : "testInsertActor",
+        "uid" : "cf3013ab773c022d",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423369,
+          "stop" : 1675002423369,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Miyoko", "Ankunding" ]
+      }, {
+        "name" : "testInsertActor",
+        "uid" : "89d098717da73407",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423372,
+          "stop" : 1675002423372,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Marty", "Crona" ]
+      }, {
+        "name" : "testInsertActor",
+        "uid" : "ae85739f93ed919e",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423374,
+          "stop" : 1675002423375,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "Patricia", "Jast" ]
+      }, {
+        "name" : "testInsertActor",
+        "uid" : "20d495c1d88ac23b",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423376,
+          "stop" : 1675002423377,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "Jasmin", "Morissette" ]
+      }, {
+        "name" : "testInsertActor",
+        "uid" : "16636a55c72cd33",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423379,
+          "stop" : 1675002423379,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Ahmed", "Turner" ]
+      }, {
+        "name" : "testInsertActor",
+        "uid" : "6ab8c9772217bf82",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423384,
+          "stop" : 1675002423384,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Orlando", "Borer" ]
+      }, {
+        "name" : "testInsertActor",
+        "uid" : "c6bc3e8de65c9cef",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423386,
+          "stop" : 1675002423387,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "Chelsea", "Barrows" ]
+      }, {
+        "name" : "testInsertActor",
+        "uid" : "55785df52a37c590",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423389,
+          "stop" : 1675002423389,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Shamika", "Greenfelder" ]
+      }, {
+        "name" : "testTablesNumberOfRows",
+        "uid" : "c7a281840ca5c593",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423392,
+          "stop" : 1675002423392,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "actor", "200" ]
+      }, {
+        "name" : "testTablesNumberOfRows",
+        "uid" : "c46261a71bb0ab02",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423394,
+          "stop" : 1675002423394,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "film_actor", "5462" ]
+      }, {
+        "name" : "testTablesNumberOfRows",
+        "uid" : "43cdea6f3e8ed16d",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423396,
+          "stop" : 1675002423397,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "film", "1000" ]
+      }, {
+        "name" : "testTablesNumberOfRows",
+        "uid" : "94cedfb989a1cf20",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423398,
+          "stop" : 1675002423399,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "address", "603" ]
+      }, {
+        "name" : "testTablesNumberOfRows",
+        "uid" : "66c801bb20e9d117",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423402,
+          "stop" : 1675002423403,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "category", "16" ]
+      }, {
+        "name" : "testTablesNumberOfRows",
+        "uid" : "fab658675995c878",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423405,
+          "stop" : 1675002423405,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "city", "600" ]
+      }, {
+        "name" : "testTablesNumberOfRows",
+        "uid" : "f01365aaa4916f37",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423407,
+          "stop" : 1675002423407,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "rental", "16044" ]
+      }, {
+        "name" : "testDeleteActorById",
+        "uid" : "395cbf7dc266b8b6",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423441,
+          "stop" : 1675002423442,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "Sharolyn", "Koepp" ]
+      }, {
+        "name" : "testDeleteActorById",
+        "uid" : "66bb94f4cd9e4692",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423444,
+          "stop" : 1675002423444,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Kirsten", "Shields" ]
+      }, {
+        "name" : "testDeleteActorById",
+        "uid" : "99b5b7fe27697624",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423446,
+          "stop" : 1675002423446,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Angel", "Farrell" ]
+      }, {
+        "name" : "testDeleteActorById",
+        "uid" : "243263042ef13e5e",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423448,
+          "stop" : 1675002423448,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Sally", "Heller" ]
+      }, {
+        "name" : "testDeleteActorById",
+        "uid" : "4c996b9a431a1294",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423450,
+          "stop" : 1675002423450,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Elijah", "Romaguera" ]
+      }, {
+        "name" : "testDeleteActorById",
+        "uid" : "232af264819bb894",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423452,
+          "stop" : 1675002423453,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "Pablo", "Sawayn" ]
+      }, {
+        "name" : "testDeleteActorById",
+        "uid" : "55d71d2d13f15318",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423455,
+          "stop" : 1675002423455,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Robert", "Dietrich" ]
+      }, {
+        "name" : "testDeleteActorById",
+        "uid" : "40ce13949edea114",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423457,
+          "stop" : 1675002423457,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Dennise", "Koepp" ]
+      }, {
+        "name" : "testDeleteActorById",
+        "uid" : "881dc52b7fee9631",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423459,
+          "stop" : 1675002423459,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Phillip", "Gaylord" ]
+      }, {
+        "name" : "testDeleteActorById",
+        "uid" : "effbd996620fcdcd",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423461,
+          "stop" : 1675002423461,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "Shakira", "Swift" ]
+      }, {
+        "name" : "testDeleteFromActorTableWhereIdIsHigher200",
+        "uid" : "cc5b1606cb25f956",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002423463,
+          "stop" : 1675002423464,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "'void org.hamcrest.Matcher.describeMismatch(java.lang.Object, org.hamcrest.Description)'",
+      "children" : [ {
+        "name" : "test_04_delete",
+        "uid" : "a41ef7316cdac30d",
+        "parentUid" : "e9b2703623bf5b912de313f469b7dead",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002529839,
+          "stop" : 1675002530061,
+          "duration" : 222
+        },
+        "flaky" : true,
+        "parameters" : [ "null", "null" ]
+      }, {
+        "name" : "test_04_delete",
+        "uid" : "a264f53e2126cfe8",
+        "parentUid" : "e9b2703623bf5b912de313f469b7dead",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002530066,
+          "stop" : 1675002530277,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04_delete",
+        "uid" : "e028bb41aae74923",
+        "parentUid" : "e9b2703623bf5b912de313f469b7dead",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002530742,
+          "stop" : 1675002530960,
+          "duration" : 218
+        },
+        "flaky" : true,
+        "parameters" : [ "null", "null" ]
+      }, {
+        "name" : "test_03_patch",
+        "uid" : "b90ac7c5b5b347cd",
+        "parentUid" : "e9b2703623bf5b912de313f469b7dead",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675002532240,
+          "stop" : 1675002532496,
+          "duration" : 256
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9b2703623bf5b912de313f469b7dead"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

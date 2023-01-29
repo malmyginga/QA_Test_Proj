@@ -1,0 +1,124 @@
+{
+  "uid" : "282c2118d596b847",
+  "name" : "testDataId0OnPage2Is7",
+  "fullName" : "backendtests.GetTest.testDataId0OnPage2Is7",
+  "historyId" : "e0141107d0eec14e014f9e65535fd08c",
+  "time" : {
+    "start" : 1675002522187,
+    "stop" : 1675002522419,
+    "duration" : 232
+  },
+  "description" : "Status code of get is 200 and data.id[0] equal to 7",
+  "descriptionHtml" : "<p>Status code of get is 200 and data.id[0] equal to 7</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "connect",
+    "time" : {
+      "start" : 1675002422761,
+      "stop" : 1675002422988,
+      "duration" : 227
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Status code of get is 200 and data.id[0] equal to 7",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f579b76abf5fbb4",
+      "name" : "Request",
+      "source" : "2f579b76abf5fbb4.html",
+      "type" : "text/html",
+      "size" : 231
+    }, {
+      "uid" : "adcec32beb6f4a3",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "adcec32beb6f4a3.html",
+      "type" : "text/html",
+      "size" : 3546
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "disconnect",
+    "time" : {
+      "start" : 1675002532498,
+      "stop" : 1675002532499,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "backendtests.GetTest"
+  }, {
+    "name" : "testClass",
+    "value" : "backendtests.GetTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDataId0OnPage2Is7"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "backendtests.GetTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "18254@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "GET Test"
+  }, {
+    "name" : "story",
+    "value" : "Verify data get users page 2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "282c2118d596b847.json",
+  "parameterValues" : [ ]
+}
