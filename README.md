@@ -22,7 +22,7 @@
 
 Для тестирования API используется [RestAssured](https://rest-assured.io)
 
-Для тестирования Web используется [Selenide](https://ru.selenide.org)
+Для тестирования Web используется [Selenide](https://ru.selenide.org). Тесты запускаются в Google Chrome.
 
 Для отправления запросов к базе данных используется
 [JDBC](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/) вместе с 
