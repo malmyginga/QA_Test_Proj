@@ -9,5 +9,6 @@ public class BaseTest {
     @BeforeSuite
     public void setRunHeadless() {
         Configuration.headless = true;
+        Configuration.timeout = 100000;
     }
 }

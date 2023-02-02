@@ -31,6 +31,9 @@
 Для построения отчетов по запущенным тестам используется
 [Allure Framework](https://docs.qameta.io/allure/)
 
+Для генерации тестовых данных (имена, фамилии, работа, email и т. д.) использовался класс
+[Faker](https://javadoc.io/doc/com.github.javafaker/javafaker/latest/com/github/javafaker/Faker.html)
+
 ## Тестируемые ресурсы
 
 [Ссылка на API](https://reqres.in)
