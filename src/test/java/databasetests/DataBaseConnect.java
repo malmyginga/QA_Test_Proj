@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 public class DataBaseConnect {
 
+    //Local Database
     private final String url = "jdbc:postgresql://localhost:5432/dvdrental";
     private final String user = "postgres";
     private final String password = "283756";
