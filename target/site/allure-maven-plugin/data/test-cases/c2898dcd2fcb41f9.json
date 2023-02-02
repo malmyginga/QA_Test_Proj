@@ -1,0 +1,96 @@
+{
+  "uid" : "c2898dcd2fcb41f9",
+  "name" : "testDeleteUserWithId",
+  "fullName" : "backendtests.DeleteTest.testDeleteUserWithId",
+  "historyId" : "b18f3fa227c65dfa8131fb343a529ca0",
+  "time" : {
+    "start" : 1675281114317,
+    "stop" : 1675281114537,
+    "duration" : 220
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBasePath",
+    "time" : {
+      "start" : 1675281112602,
+      "stop" : 1675281112602,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setBaseURI",
+    "time" : {
+      "start" : 1675281112176,
+      "stop" : 1675281112582,
+      "duration" : 406
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "backendtests.DeleteTest"
+  }, {
+    "name" : "testClass",
+    "value" : "backendtests.DeleteTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDeleteUserWithId"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Backend Tests"
+  }, {
+    "name" : "suite",
+    "value" : "API tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "backendtests.DeleteTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "40509@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2898dcd2fcb41f9.json",
+  "parameterValues" : [ "4" ]
+}

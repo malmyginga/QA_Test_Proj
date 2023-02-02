@@ -1,0 +1,93 @@
+{
+  "uid" : "45a9abeefa3c7cfe",
+  "name" : "testListResourcePage2",
+  "fullName" : "backendtests.GetListResourceTest.testListResourcePage2",
+  "historyId" : "fa899319db1cd971b6724a2877d09595",
+  "time" : {
+    "start" : 1675281117262,
+    "stop" : 1675281117513,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBasePath",
+    "time" : {
+      "start" : 1675281116599,
+      "stop" : 1675281116599,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setBaseURI",
+    "time" : {
+      "start" : 1675281112176,
+      "stop" : 1675281112582,
+      "duration" : 406
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "backendtests.GetListResourceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "backendtests.GetListResourceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testListResourcePage2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Backend Tests"
+  }, {
+    "name" : "suite",
+    "value" : "API tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "backendtests.GetListResourceTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "40509@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45a9abeefa3c7cfe.json",
+  "parameterValues" : [ ]
+}

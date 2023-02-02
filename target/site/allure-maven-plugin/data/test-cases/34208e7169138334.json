@@ -1,0 +1,102 @@
+{
+  "uid" : "34208e7169138334",
+  "name" : "testUpdateActorTable",
+  "fullName" : "databasetests.UpdateTest.testUpdateActorTable",
+  "historyId" : "f2545be7bcdf1347eb0de802811ade2a",
+  "time" : {
+    "start" : 1675281137737,
+    "stop" : 1675281137748,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "connect",
+    "time" : {
+      "start" : 1675281137704,
+      "stop" : 1675281137724,
+      "duration" : 20
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "disconnect",
+    "time" : {
+      "start" : 1675281137767,
+      "stop" : 1675281137767,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "databasetests.UpdateTest"
+  }, {
+    "name" : "testClass",
+    "value" : "databasetests.UpdateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUpdateActorTable"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Database Tests"
+  }, {
+    "name" : "suite",
+    "value" : "DB tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "databasetests.UpdateTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "40509@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Elyse"
+  }, {
+    "name" : "arg1",
+    "value" : "Wolff"
+  }, {
+    "name" : "arg2",
+    "value" : "Lind"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34208e7169138334.json",
+  "parameterValues" : [ "Elyse", "Wolff", "Lind" ]
+}

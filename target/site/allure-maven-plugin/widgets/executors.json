@@ -1,5 +1,5 @@
 [ {
   "name" : "Maven",
   "type" : "maven",
-  "buildName" : "RestAssuredProject"
+  "buildName" : "QA_Test_Project"
 } ]

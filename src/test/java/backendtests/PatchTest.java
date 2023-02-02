@@ -1,42 +1,41 @@
 package backendtests;
 
-import com.github.javafaker.Faker;
-import io.qameta.allure.restassured.AllureRestAssured;
+import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import org.json.simple.JSONObject;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.hasKey;
 
 public class PatchTest extends BaseTest {
 
-    @Test
-    public void test_03_patch() {
-        // gson Jackson Json Simple json
+    @BeforeClass
+    public void setBasePath() {
+        RestAssured.basePath = EndPoints.usersId;
+    }
+
+    @Test(dataProvider = "funnyFirstNameAndJobProvider", dataProviderClass = DataForTest.class)
+    public void testPatchUserWithId2(String firstName, String job) {
         Map<String, Object> map = new HashMap<String, Object>();
-
-        Faker faker = new Faker(new Locale("ru"));
-        String name = faker.name().fullName();
-        String job = faker.job().title();
-
-        map.put("name", name);
+        map.put("name", firstName);
         map.put("job", job);
 
-        JSONObject request = new JSONObject(map);
-
         given()
-            .filter(new AllureRestAssured())
-            .header("Content-type", "application/json")
             .contentType(ContentType.JSON)
             .accept(ContentType.JSON)
-            .body(request.toJSONString())
+            .pathParam("id", 2)
+            .body(map)
         .when()
-            .patch(urlPath)
+            .patch()
         .then()
-            .statusCode(200);
+            .statusCode(200)
+            .body("name", equalTo(firstName))
+            .body("job", equalTo(job))
+            .body("$", hasKey("updatedAt"));
     }
 }

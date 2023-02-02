@@ -1,0 +1,96 @@
+{
+  "uid" : "7b4f9728ce7a90e",
+  "name" : "testSingleUserNotFound",
+  "fullName" : "backendtests.GetSingleUserTest.testSingleUserNotFound",
+  "historyId" : "32b77cf5609c121d6e4f50064367f068",
+  "time" : {
+    "start" : 1675281123930,
+    "stop" : 1675281124152,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBasePath",
+    "time" : {
+      "start" : 1675281123053,
+      "stop" : 1675281123054,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setBaseURI",
+    "time" : {
+      "start" : 1675281112176,
+      "stop" : 1675281112582,
+      "duration" : 406
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "backendtests.GetSingleUserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "backendtests.GetSingleUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSingleUserNotFound"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Backend Tests"
+  }, {
+    "name" : "suite",
+    "value" : "API tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "backendtests.GetSingleUserTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "40509@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "1378791566"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b4f9728ce7a90e.json",
+  "parameterValues" : [ "1378791566" ]
+}

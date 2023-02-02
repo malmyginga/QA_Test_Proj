@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="QA project suite">
+    <suite-files>
+        <suite-file path="BackendSuite.xml" />
+        <suite-file path="DataBaseSuite.xml" />
+        <suite-file path="FrontendSuite.xml" />
+    </suite-files>
+</suite>

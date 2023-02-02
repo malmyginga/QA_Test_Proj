@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Backend Tests">
+    <test name="API tests">
+        <classes>
+            <class name="backendtests.DeleteTest"/>
+            <class name="backendtests.GetListResourceTest"/>
+            <class name="backendtests.GetListUserTest"/>
+            <class name="backendtests.GetSingleResourceTest"/>
+            <class name="backendtests.GetSingleUserTest"/>
+            <class name="backendtests.LoginTest"/>
+            <class name="backendtests.PatchTest"/>
+            <class name="backendtests.PostTest"/>
+            <class name="backendtests.PutTest"/>
+            <class name="backendtests.RegisterTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

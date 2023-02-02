@@ -1,0 +1,96 @@
+{
+  "uid" : "c9e3341a664cffef",
+  "name" : "testSingleResourceNotFound",
+  "fullName" : "backendtests.GetSingleResourceTest.testSingleResourceNotFound",
+  "historyId" : "dc7bc749f9310d228de034f72eda98c6",
+  "time" : {
+    "start" : 1675281120633,
+    "stop" : 1675281120842,
+    "duration" : 209
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBasePath",
+    "time" : {
+      "start" : 1675281120630,
+      "stop" : 1675281120630,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setBaseURI",
+    "time" : {
+      "start" : 1675281112176,
+      "stop" : 1675281112582,
+      "duration" : 406
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "backendtests.GetSingleResourceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "backendtests.GetSingleResourceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSingleResourceNotFound"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Backend Tests"
+  }, {
+    "name" : "suite",
+    "value" : "API tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "backendtests.GetSingleResourceTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "40509@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "707007008"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9e3341a664cffef.json",
+  "parameterValues" : [ "707007008" ]
+}

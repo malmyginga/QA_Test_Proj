@@ -1,0 +1,99 @@
+{
+  "uid" : "800c177e76a22f2a",
+  "name" : "testPostUser",
+  "fullName" : "backendtests.PostTest.testPostUser",
+  "historyId" : "d2c88f070d6f4eb3786d36e67678d35",
+  "time" : {
+    "start" : 1675281129432,
+    "stop" : 1675281129637,
+    "duration" : 205
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBasePath",
+    "time" : {
+      "start" : 1675281129180,
+      "stop" : 1675281129180,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setBaseURI",
+    "time" : {
+      "start" : 1675281112176,
+      "stop" : 1675281112582,
+      "duration" : 406
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "backendtests.PostTest"
+  }, {
+    "name" : "testClass",
+    "value" : "backendtests.PostTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testPostUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Backend Tests"
+  }, {
+    "name" : "suite",
+    "value" : "API tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "backendtests.PostTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "40509@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Tess Pouros"
+  }, {
+    "name" : "arg1",
+    "value" : "Dynamic Executive"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "800c177e76a22f2a.json",
+  "parameterValues" : [ "Tess Pouros", "Dynamic Executive" ]
+}

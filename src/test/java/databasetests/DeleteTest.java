@@ -17,7 +17,6 @@ public class DeleteTest extends BaseTest {
         String selectQuery = "select count(*) from actor where actor_id=?";
 
         int actorId;
-        int count = 0;
         try {
             //Insert
             PreparedStatement insertStatement = connection.prepareStatement(insertQuery, Statement.RETURN_GENERATED_KEYS);

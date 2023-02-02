@@ -1,0 +1,99 @@
+{
+  "uid" : "650a97b771e2a28a",
+  "name" : "testGetUserWithValidIdAndRegister",
+  "fullName" : "backendtests.RegisterTest.testGetUserWithValidIdAndRegister",
+  "historyId" : "908a30a539126f43307d2a1faec6be3c",
+  "time" : {
+    "start" : 1675281134305,
+    "stop" : 1675281134738,
+    "duration" : 433
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBasePath",
+    "time" : {
+      "start" : 1675281130934,
+      "stop" : 1675281130934,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setBaseURI",
+    "time" : {
+      "start" : 1675281112176,
+      "stop" : 1675281112582,
+      "duration" : 406
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "backendtests.RegisterTest"
+  }, {
+    "name" : "testClass",
+    "value" : "backendtests.RegisterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGetUserWithValidIdAndRegister"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Backend Tests"
+  }, {
+    "name" : "suite",
+    "value" : "API tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "backendtests.RegisterTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "40509@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "9"
+  }, {
+    "name" : "arg1",
+    "value" : "rR&h&I63!Tds"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "650a97b771e2a28a.json",
+  "parameterValues" : [ "9", "rR&h&I63!Tds" ]
+}

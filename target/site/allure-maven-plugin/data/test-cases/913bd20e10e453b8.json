@@ -1,0 +1,99 @@
+{
+  "uid" : "913bd20e10e453b8",
+  "name" : "testTablesNumberOfRows",
+  "fullName" : "databasetests.NumberOfRowsTest.testTablesNumberOfRows",
+  "historyId" : "33fbd24f0945ca0b57043a0fc41bc293",
+  "time" : {
+    "start" : 1675281137670,
+    "stop" : 1675281137671,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "connect",
+    "time" : {
+      "start" : 1675281137637,
+      "stop" : 1675281137656,
+      "duration" : 19
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "disconnect",
+    "time" : {
+      "start" : 1675281137678,
+      "stop" : 1675281137679,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "databasetests.NumberOfRowsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "databasetests.NumberOfRowsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testTablesNumberOfRows"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Database Tests"
+  }, {
+    "name" : "suite",
+    "value" : "DB tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "databasetests.NumberOfRowsTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "40509@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "category"
+  }, {
+    "name" : "arg1",
+    "value" : "16"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "913bd20e10e453b8.json",
+  "parameterValues" : [ "category", "16" ]
+}

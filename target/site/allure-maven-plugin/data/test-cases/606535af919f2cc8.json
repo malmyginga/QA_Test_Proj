@@ -1,0 +1,99 @@
+{
+  "uid" : "606535af919f2cc8",
+  "name" : "testLoginWithUnregisteredUser",
+  "fullName" : "backendtests.LoginTest.testLoginWithUnregisteredUser",
+  "historyId" : "c7e9aade410e950b5cc92905964e83e4",
+  "time" : {
+    "start" : 1675281127405,
+    "stop" : 1675281127621,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBasePath",
+    "time" : {
+      "start" : 1675281125436,
+      "stop" : 1675281125437,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setBaseURI",
+    "time" : {
+      "start" : 1675281112176,
+      "stop" : 1675281112582,
+      "duration" : 406
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "backendtests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "backendtests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginWithUnregisteredUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Backend Tests"
+  }, {
+    "name" : "suite",
+    "value" : "API tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "backendtests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "40509@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "larita.mueller@hotmail.com"
+  }, {
+    "name" : "arg1",
+    "value" : "^V73xGcI6xj"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "606535af919f2cc8.json",
+  "parameterValues" : [ "larita.mueller@hotmail.com", "^V73xGcI6xj" ]
+}

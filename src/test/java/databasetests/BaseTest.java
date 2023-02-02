@@ -1,7 +1,9 @@
 package databasetests;
 
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -9,12 +11,12 @@ import java.sql.SQLException;
 public class BaseTest {
     public Connection connection = null;
 
-    @BeforeTest
+    @BeforeClass
     public void connect() {
         connection = (new DataBaseConnect()).connect();
     }
 
-    @AfterTest
+    @AfterClass
     public void disconnect() {
         try {
             connection.close();

@@ -1,0 +1,99 @@
+{
+  "uid" : "2593f4b4871435c",
+  "name" : "testDeleteActorById",
+  "fullName" : "databasetests.DeleteTest.testDeleteActorById",
+  "historyId" : "ac52b547de5a8d8ac38a685f79343cbc",
+  "time" : {
+    "start" : 1675281137334,
+    "stop" : 1675281137339,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "connect",
+    "time" : {
+      "start" : 1675281137124,
+      "stop" : 1675281137263,
+      "duration" : 139
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "disconnect",
+    "time" : {
+      "start" : 1675281137381,
+      "stop" : 1675281137382,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "databasetests.DeleteTest"
+  }, {
+    "name" : "testClass",
+    "value" : "databasetests.DeleteTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDeleteActorById"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Database Tests"
+  }, {
+    "name" : "suite",
+    "value" : "DB tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "databasetests.DeleteTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "40509@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Anette"
+  }, {
+    "name" : "arg1",
+    "value" : "Witting"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2593f4b4871435c.json",
+  "parameterValues" : [ "Anette", "Witting" ]
+}

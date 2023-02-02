@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Database Tests">
+    <test name="DB tests">
+        <classes>
+            <class name="databasetests.DeleteTest"/>
+            <class name="databasetests.InsertTest"/>
+            <class name="databasetests.JOINTest"/>
+            <class name="databasetests.NumberOfRowsTest"/>
+            <class name="databasetests.SelectTest"/>
+            <class name="databasetests.UpdateTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

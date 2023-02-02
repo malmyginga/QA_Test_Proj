@@ -1,51 +1,40 @@
 package backendtests;
 
+import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import org.json.simple.JSONObject;
+import org.hamcrest.Matchers;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.hasKey;
 
 public class PostTest extends BaseTest {
-
-    @Test
-    public void test_01_post() {
-        Map<String, Object> map = new HashMap<String, Object>();
-        map.put("name", "Gleb");
-        map.put("job", "QA engineer");
-
-        JSONObject request = new JSONObject(map);
-
-        given()
-            .header("Content-type", "application/json")
-            .contentType(ContentType.JSON)
-            .accept(ContentType.JSON)
-            .body(request.toJSONString())
-        .when()
-            .post("https://reqres.in/api/users")
-        .then()
-            .statusCode(201);
+    @BeforeClass
+    public void setBasePath() {
+        RestAssured.basePath = EndPoints.users;
     }
-
-    @Test(dataProviderClass = DataForTest.class, dataProvider = "dataForPost")
-    public void test_01_post(String name, String job) {
+    @Test(dataProvider = "firstNameAndJobProvider", dataProviderClass = DataForTest.class)
+    public void testPostUser(String firstName, String job) {
         Map<String, Object> map = new HashMap<String, Object>();
-        map.put("name", name);
+        map.put("name", firstName);
         map.put("job", job);
 
-        JSONObject request = new JSONObject(map);
-
         given()
-        .header("Content-type", "application/json")
-        .contentType(ContentType.JSON)
-        .accept(ContentType.JSON)
-        .body(request.toJSONString())
+            .contentType(ContentType.JSON)
+            .accept(ContentType.JSON)
+            .body(map)
         .when()
-        .post("https://reqres.in/api/users")
+            .post()
         .then()
-        .statusCode(201);
+            .body("name", equalTo(firstName))
+            .body("job", equalTo(job))
+            .body("$", hasKey("id"))
+            .body("$", hasKey("createdAt"))
+            .statusCode(201);
     }
 }

@@ -1,44 +1,25 @@
 package backendtests;
 
-import io.qameta.allure.restassured.AllureRestAssured;
+import io.restassured.RestAssured;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
 public class DeleteTest extends BaseTest {
 
-    @Test
-    public void test_04_delete() {
-
-        //we can put data to API
-        //we can get same data from API to ensure it is there
-        //we can delete data from API
-        //try to get deleted data
-
-        given()
-        .when()
-            .delete(urlPath)
-        .then()
-            .statusCode(204)
-            .log()
-            .all();
+    @BeforeClass
+    public void setBasePath() {
+        RestAssured.basePath = EndPoints.usersId;
     }
 
-    //    @Parameters("parameter") then data will be from TestNG.xml
-    @Test(dataProvider = "dataForDelete", dataProviderClass = DataForTest.class)
-    public void test_04_delete(String name, String job) {
-
-        //we can put data to API
-        //we can get same data from API to ensure it is there
-        //we can delete data from API
-        //try to get deleted data
+    @Test(dataProvider = "validIdProvider", dataProviderClass = DataForTest.class)
+    public void testDeleteUserWithId(int id) {
         given()
-        .filter(new AllureRestAssured())
+            .pathParam("id", id)
         .when()
-        .delete(urlPath)
+            .delete()
         .then()
-        .statusCode(204)
-        .log()
-        .all();
+            .statusCode(204);
     }
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Frontend Tests">
+    <test name="Web UI tests">
+        <classes>
+            <class name="webtests.AdminTabTest"/>
+            <class name="webtests.LoginTest"/>
+            <class name="webtests.SidePanelTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

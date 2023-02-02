@@ -95,7 +95,6 @@ public class InsertTest extends BaseTest {
         String selectQuery = "select count(*) from actor where first_name=? and last_name=?";
         String deleteQuery = "delete from actor where first_name=? and last_name=?";
 
-
         int count = 0;
         try {
             PreparedStatement insertStatement = connection.prepareStatement(insertQuery);

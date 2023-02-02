@@ -1,930 +1,1350 @@
 [ {
-  "uid" : "99b5b7fe27697624",
-  "name" : "testDeleteActorById",
-  "time" : {
-    "start" : 1675002423446,
-    "stop" : 1675002423446,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "881dc52b7fee9631",
-  "name" : "testDeleteActorById",
-  "time" : {
-    "start" : 1675002423459,
-    "stop" : 1675002423459,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "46dc726df36a2248",
-  "name" : "testGoogleSearch",
-  "time" : {
-    "start" : 1675002423466,
-    "stop" : 1675002439835,
-    "duration" : 16369
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d2a4310bb8e8cd20",
-  "name" : "testInsertActor",
-  "time" : {
-    "start" : 1675002423364,
-    "stop" : 1675002423364,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "de89411494113aa1",
-  "name" : "test_3",
-  "time" : {
-    "start" : 1675002532230,
-    "stop" : 1675002532230,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b6a83b0ae9ab62ff",
-  "name" : "test_01_post",
-  "time" : {
-    "start" : 1675002531809,
-    "stop" : 1675002532016,
-    "duration" : 207
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "40ce13949edea114",
-  "name" : "testDeleteActorById",
-  "time" : {
-    "start" : 1675002423457,
-    "stop" : 1675002423457,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "fab658675995c878",
+  "uid" : "e78139b5ce12a45c",
   "name" : "testTablesNumberOfRows",
   "time" : {
-    "start" : 1675002423405,
-    "stop" : 1675002423405,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "6ab8c9772217bf82",
-  "name" : "testInsertActor",
-  "time" : {
-    "start" : 1675002423384,
-    "stop" : 1675002423384,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "395cbf7dc266b8b6",
-  "name" : "testDeleteActorById",
-  "time" : {
-    "start" : 1675002423441,
-    "stop" : 1675002423442,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c6bc3e8de65c9cef",
-  "name" : "testInsertActor",
-  "time" : {
-    "start" : 1675002423386,
-    "stop" : 1675002423387,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "98fb9001dc240e8f",
-  "name" : "testLoginNoInput",
-  "time" : {
-    "start" : 1675002450800,
-    "stop" : 1675002451207,
-    "duration" : 407
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "94cedfb989a1cf20",
-  "name" : "testTablesNumberOfRows",
-  "time" : {
-    "start" : 1675002423398,
-    "stop" : 1675002423399,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a41ef7316cdac30d",
-  "name" : "test_04_delete",
-  "time" : {
-    "start" : 1675002529839,
-    "stop" : 1675002530061,
-    "duration" : 222
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "43cdea6f3e8ed16d",
-  "name" : "testTablesNumberOfRows",
-  "time" : {
-    "start" : 1675002423396,
-    "stop" : 1675002423397,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "867ad7fd8d53744d",
-  "name" : "testRegisterSuccessful",
-  "time" : {
-    "start" : 1675002530969,
-    "stop" : 1675002530969,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "243263042ef13e5e",
-  "name" : "testDeleteActorById",
-  "time" : {
-    "start" : 1675002423448,
-    "stop" : 1675002423448,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "38799a2d198fc93b",
-  "name" : "testIframe",
-  "time" : {
-    "start" : 1675002520179,
-    "stop" : 1675002520179,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "169ecaba47c82e80",
-  "name" : "testListResource",
-  "time" : {
-    "start" : 1675002524868,
-    "stop" : 1675002525154,
-    "duration" : 286
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "98b30ae5843e4e02",
-  "name" : "test_4",
-  "time" : {
-    "start" : 1675002532233,
-    "stop" : 1675002532233,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "66c801bb20e9d117",
-  "name" : "testTablesNumberOfRows",
-  "time" : {
-    "start" : 1675002423402,
-    "stop" : 1675002423403,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "64d9c8f4bb6ab2d4",
-  "name" : "testLoginSuccessful",
-  "time" : {
-    "start" : 1675002530965,
-    "stop" : 1675002530965,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ef9b168ba99f921d",
-  "name" : "testUpdateActorTable",
-  "time" : {
-    "start" : 1675002423280,
-    "stop" : 1675002423280,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "55d71d2d13f15318",
-  "name" : "testDeleteActorById",
-  "time" : {
-    "start" : 1675002423455,
-    "stop" : 1675002423455,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "688b2436a5b40822",
-  "name" : "testUpdate",
-  "time" : {
-    "start" : 1675002532238,
-    "stop" : 1675002532238,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad5873895e5e40ac",
-  "name" : "testSingleResourceNotFound",
-  "time" : {
-    "start" : 1675002525836,
-    "stop" : 1675002526041,
-    "duration" : 205
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf3013ab773c022d",
-  "name" : "testInsertActor",
-  "time" : {
-    "start" : 1675002423369,
-    "stop" : 1675002423369,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5b53a79fb74df40b",
-  "name" : "testNumberOfActiveCustomersFromWestBengaliIsEqualTo8",
-  "time" : {
-    "start" : 1675002423049,
-    "stop" : 1675002423069,
-    "duration" : 20
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "effbd996620fcdcd",
-  "name" : "testDeleteActorById",
-  "time" : {
-    "start" : 1675002423461,
-    "stop" : 1675002423461,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ae85739f93ed919e",
-  "name" : "testInsertActor",
-  "time" : {
-    "start" : 1675002423374,
-    "stop" : 1675002423375,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "191665cb682f53a0",
-  "name" : "testSingleResourceNotFound",
-  "time" : {
-    "start" : 1675002527552,
-    "stop" : 1675002527768,
-    "duration" : 216
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "35f571704a31d8f2",
-  "name" : "testSingleResource",
-  "time" : {
-    "start" : 1675002525364,
-    "stop" : 1675002525614,
-    "duration" : 250
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "12a7c6faddb40dac",
-  "name" : "test_02",
-  "time" : {
-    "start" : 1675002528480,
-    "stop" : 1675002528480,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8af0e6ec61e884bf",
-  "name" : "testSingleResourceNotFound",
-  "time" : {
-    "start" : 1675002527122,
-    "stop" : 1675002527331,
-    "duration" : 209
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b90ac7c5b5b347cd",
-  "name" : "test_03_patch",
-  "time" : {
-    "start" : 1675002532240,
-    "stop" : 1675002532496,
-    "duration" : 256
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "8327a01fb4c3e54b",
-  "name" : "testZeroCageActorExists",
-  "time" : {
-    "start" : 1675002423283,
-    "stop" : 1675002423283,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "1fff7d0ba56c170f",
-  "name" : "test_01_post",
-  "time" : {
-    "start" : 1675002528932,
-    "stop" : 1675002529136,
-    "duration" : 204
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "799e70f58f9b9c23",
-  "name" : "testUpdateActorTable",
-  "time" : {
-    "start" : 1675002423272,
-    "stop" : 1675002423274,
+    "start" : 1675281137675,
+    "stop" : 1675281137677,
     "duration" : 2
   },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "1aacc76427ab0c46",
-  "name" : "test_01_post",
-  "time" : {
-    "start" : 1675002530972,
-    "stop" : 1675002531239,
-    "duration" : 267
-  },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f01365aaa4916f37",
-  "name" : "testTablesNumberOfRows",
+  "uid" : "bba23ca4952168ba",
+  "name" : "testSingleUserNotFound",
   "time" : {
-    "start" : 1675002423407,
-    "stop" : 1675002423407,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a113e48c7e9af6c2",
-  "name" : "testInsertActor",
-  "time" : {
-    "start" : 1675002423366,
-    "stop" : 1675002423367,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ff8730da22e049da",
-  "name" : "testUpdateActorTable",
-  "time" : {
-    "start" : 1675002423277,
-    "stop" : 1675002423277,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "282c2118d596b847",
-  "name" : "testDataId0OnPage2Is7",
-  "time" : {
-    "start" : 1675002522187,
-    "stop" : 1675002522419,
-    "duration" : 232
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "64356a3e38af4c96",
-  "name" : "testResetPassword",
-  "time" : {
-    "start" : 1675002454503,
-    "stop" : 1675002457249,
-    "duration" : 2746
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a26d0beed0d11d56",
-  "name" : "testUpdate",
-  "time" : {
-    "start" : 1675002528224,
-    "stop" : 1675002528224,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f43570a69d7b6b5",
-  "name" : "test_2",
-  "time" : {
-    "start" : 1675002532228,
-    "stop" : 1675002532228,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "78b7150ad3c750f9",
-  "name" : "testAdminTopbarMenuOrganizationDropdownSizeIs3",
-  "time" : {
-    "start" : 1675002506962,
-    "stop" : 1675002507277,
-    "duration" : 315
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b951a7d111cceae8",
-  "name" : "testYouTubeLink",
-  "time" : {
-    "start" : 1675002469445,
-    "stop" : 1675002494208,
-    "duration" : 24763
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c7a281840ca5c593",
-  "name" : "testTablesNumberOfRows",
-  "time" : {
-    "start" : 1675002423392,
-    "stop" : 1675002423392,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "2d79e5ab725355d5",
-  "name" : "testResetPasswordCancelButton",
-  "time" : {
-    "start" : 1675002460395,
-    "stop" : 1675002462085,
-    "duration" : 1690
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ff445fee9c64e6cb",
-  "name" : "testRegisterUnsuccessful",
-  "time" : {
-    "start" : 1675002530971,
-    "stop" : 1675002530971,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "93b7c549cf5110bc",
-  "name" : "testDataId1Is8",
-  "time" : {
-    "start" : 1675002522421,
-    "stop" : 1675002522621,
-    "duration" : 200
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "89d098717da73407",
-  "name" : "testInsertActor",
-  "time" : {
-    "start" : 1675002423372,
-    "stop" : 1675002423372,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "232af264819bb894",
-  "name" : "testDeleteActorById",
-  "time" : {
-    "start" : 1675002423452,
-    "stop" : 1675002423453,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "f6c70b799f962e03",
-  "name" : "testSingleResourceNotFound",
-  "time" : {
-    "start" : 1675002525617,
-    "stop" : 1675002525835,
-    "duration" : 218
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "34cf8dfefed3ebc0",
-  "name" : "test_01_post",
-  "time" : {
-    "start" : 1675002532019,
-    "stop" : 1675002532225,
+    "start" : 1675281124154,
+    "stop" : 1675281124360,
     "duration" : 206
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4b1f4395acfdd30c",
-  "name" : "testInsert10Records",
+  "uid" : "b15b3135a0acda4",
+  "name" : "testListUsers",
   "time" : {
-    "start" : 1675002423328,
-    "stop" : 1675002423329,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c316385e761b14e7",
-  "name" : "testSingleResourceNotFound",
-  "time" : {
-    "start" : 1675002526470,
-    "stop" : 1675002526684,
-    "duration" : 214
+    "start" : 1675281120410,
+    "stop" : 1675281120629,
+    "duration" : 219
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bd6c8a548434b541",
-  "name" : "test_01_post",
+  "uid" : "8c55e5a803e95977",
+  "name" : "testGetUserWithValidIdAndRegister",
   "time" : {
-    "start" : 1675002528713,
-    "stop" : 1675002528929,
-    "duration" : 216
+    "start" : 1675281133025,
+    "stop" : 1675281133465,
+    "duration" : 440
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6ec376ac6d6f4eda",
-  "name" : "testResetPasswordNoInput",
+  "uid" : "de1913e90c4bc5a1",
+  "name" : "testLoginWithUnregisteredUser",
   "time" : {
-    "start" : 1675002465683,
-    "stop" : 1675002466801,
-    "duration" : 1118
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1323d5239788e06f",
-  "name" : "test_5",
-  "time" : {
-    "start" : 1675002532235,
-    "stop" : 1675002532235,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c46261a71bb0ab02",
-  "name" : "testTablesNumberOfRows",
-  "time" : {
-    "start" : 1675002423394,
-    "stop" : 1675002423394,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "40bf8157b227c3dc",
-  "name" : "testLogin",
-  "time" : {
-    "start" : 1675002446164,
-    "stop" : 1675002448152,
-    "duration" : 1988
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a264f53e2126cfe8",
-  "name" : "test_04_delete",
-  "time" : {
-    "start" : 1675002530066,
-    "stop" : 1675002530277,
-    "duration" : 211
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "4fabedb6dc2d5fbf",
-  "name" : "testMaintenanceSearch",
-  "time" : {
-    "start" : 1675002442957,
-    "stop" : 1675002443396,
-    "duration" : 439
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "820f500da157f485",
-  "name" : "testDelayedResponse",
-  "time" : {
-    "start" : 1675002522623,
-    "stop" : 1675002524866,
-    "duration" : 2243
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cc5b1606cb25f956",
-  "name" : "testDeleteFromActorTableWhereIdIsHigher200",
-  "time" : {
-    "start" : 1675002423463,
-    "stop" : 1675002423464,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "3c3f1f6cbfb86655",
-  "name" : "testSingleResourceNotFound",
-  "time" : {
-    "start" : 1675002527332,
-    "stop" : 1675002527550,
-    "duration" : 218
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c2acae2b513d8446",
-  "name" : "testSingleResourceNotFound",
-  "time" : {
-    "start" : 1675002526687,
-    "stop" : 1675002526901,
-    "duration" : 214
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5048b18af52b2c4",
-  "name" : "test_01",
-  "time" : {
-    "start" : 1675002528227,
-    "stop" : 1675002528478,
-    "duration" : 251
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9fbcf86da1a50a65",
-  "name" : "testSingleUserNotFound",
-  "time" : {
-    "start" : 1675002528021,
-    "stop" : 1675002528221,
-    "duration" : 200
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "376fe4f897dbfa42",
-  "name" : "testDelete",
-  "time" : {
-    "start" : 1675002530064,
-    "stop" : 1675002530064,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5613b3a439f10956",
-  "name" : "testDataFirstNameHasMichaelAndLindsay",
-  "time" : {
-    "start" : 1675002520288,
-    "stop" : 1675002522182,
-    "duration" : 1894
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5cf8c875291dd005",
-  "name" : "testAdminTopbarMenuUserManagementDropdownSizeIs1",
-  "time" : {
-    "start" : 1675002513043,
-    "stop" : 1675002513550,
-    "duration" : 507
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a2111a820961dd53",
-  "name" : "testSingleResourceNotFound",
-  "time" : {
-    "start" : 1675002526248,
-    "stop" : 1675002526468,
+    "start" : 1675281127183,
+    "stop" : 1675281127403,
     "duration" : 220
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e028bb41aae74923",
-  "name" : "test_04_delete",
+  "uid" : "233f8a846ea63371",
+  "name" : "testPatchUserWithId2",
   "time" : {
-    "start" : 1675002530742,
-    "stop" : 1675002530960,
-    "duration" : 218
+    "start" : 1675281128291,
+    "stop" : 1675281128512,
+    "duration" : 221
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "32bfc90db71b8990",
-  "name" : "testInsert10Records",
+  "uid" : "913bd20e10e453b8",
+  "name" : "testTablesNumberOfRows",
   "time" : {
-    "start" : 1675002423326,
-    "stop" : 1675002423326,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "20d495c1d88ac23b",
-  "name" : "testInsertActor",
-  "time" : {
-    "start" : 1675002423376,
-    "stop" : 1675002423377,
+    "start" : 1675281137670,
+    "stop" : 1675281137671,
     "duration" : 1
   },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "16636a55c72cd33",
-  "name" : "testInsertActor",
-  "time" : {
-    "start" : 1675002423379,
-    "stop" : 1675002423379,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "66bb94f4cd9e4692",
-  "name" : "testDeleteActorById",
-  "time" : {
-    "start" : 1675002423444,
-    "stop" : 1675002423444,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "aeba029f1238696",
-  "name" : "testListUsers",
-  "time" : {
-    "start" : 1675002525155,
-    "stop" : 1675002525353,
-    "duration" : 198
-  },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "55785df52a37c590",
-  "name" : "testInsertActor",
-  "time" : {
-    "start" : 1675002423389,
-    "stop" : 1675002423389,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "46a1056d1ab995bf",
-  "name" : "testLoginUnsuccessful",
-  "time" : {
-    "start" : 1675002530967,
-    "stop" : 1675002530967,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a7f161bc1a9d6640",
-  "name" : "testNumberOfStoresInThailandIs3",
-  "time" : {
-    "start" : 1675002423113,
-    "stop" : 1675002423115,
-    "duration" : 2
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4c996b9a431a1294",
-  "name" : "testDeleteActorById",
-  "time" : {
-    "start" : 1675002423450,
-    "stop" : 1675002423450,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "825785dac2e64688",
-  "name" : "testAdminTopbarMenuJobDropdownSizeIs5",
-  "time" : {
-    "start" : 1675002500232,
-    "stop" : 1675002500555,
-    "duration" : 323
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2f0d18ab3d34c1cc",
-  "name" : "testRentalIdPaymentSumIs12_95",
-  "time" : {
-    "start" : 1675002423118,
-    "stop" : 1675002423145,
-    "duration" : 27
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8eabaec7b3640891",
+  "uid" : "e80bf3f0fc0daa1f",
   "name" : "testSingleResourceNotFound",
   "time" : {
-    "start" : 1675002526042,
-    "stop" : 1675002526246,
-    "duration" : 204
+    "start" : 1675281121285,
+    "stop" : 1675281121508,
+    "duration" : 223
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "60d512c37d1481c3",
-  "name" : "testSingleUser",
+  "uid" : "5fcdf6bc94584714",
+  "name" : "testResetPassword",
   "time" : {
-    "start" : 1675002527771,
-    "stop" : 1675002528020,
-    "duration" : 249
+    "start" : 1675281241441,
+    "stop" : 1675281244225,
+    "duration" : 2784
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f04b75d163224601",
-  "name" : "testCreate",
+  "uid" : "e61df9524d110e99",
+  "name" : "testInsert10Records",
   "time" : {
-    "start" : 1675002530963,
-    "stop" : 1675002530963,
-    "duration" : 0
+    "start" : 1675281137418,
+    "stop" : 1675281137432,
+    "duration" : 14
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ff43d0cfe7bf92da",
+  "uid" : "35c2755d103dc668",
+  "name" : "testSingleUserNotFound",
+  "time" : {
+    "start" : 1675281124362,
+    "stop" : 1675281124567,
+    "duration" : 205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8dcb4fe405392f55",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281113882,
+    "stop" : 1675281114094,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d2803226df6425e",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281116378,
+    "stop" : 1675281116594,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6e24d0f70a95d48",
+  "name" : "testAdminTopbarMenuUserManagementDropdownSizeIs1",
+  "time" : {
+    "start" : 1675281159087,
+    "stop" : 1675281159448,
+    "duration" : 361
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44a62139b2327aa6",
   "name" : "testSingleResourceNotFound",
   "time" : {
-    "start" : 1675002526904,
-    "stop" : 1675002527119,
+    "start" : 1675281122171,
+    "stop" : 1675281122386,
     "duration" : 215
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2bbb5e9714da92b8",
-  "name" : "test_01_post",
+  "uid" : "c0c542a7fe3f1346",
+  "name" : "testLoginWithUnregisteredUser",
   "time" : {
-    "start" : 1675002528499,
-    "stop" : 1675002528710,
+    "start" : 1675281127844,
+    "stop" : 1675281128054,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "947af4ac9a5f3fa8",
+  "name" : "testDeleteActorById",
+  "time" : {
+    "start" : 1675281137273,
+    "stop" : 1675281137319,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b480fe63266bd0af",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281114776,
+    "stop" : 1675281115015,
+    "duration" : 239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cfc056d320bad92",
+  "name" : "testSingleUserNotFound",
+  "time" : {
+    "start" : 1675281124986,
+    "stop" : 1675281125216,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75258db25d5df768",
+  "name" : "testSingleUserNotFound",
+  "time" : {
+    "start" : 1675281125219,
+    "stop" : 1675281125434,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a54ae6a1730c593",
+  "name" : "testLoginWithUnregisteredUser",
+  "time" : {
+    "start" : 1675281127623,
+    "stop" : 1675281127839,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9fe87513f641d19",
+  "name" : "testDeleteActorById",
+  "time" : {
+    "start" : 1675281137359,
+    "stop" : 1675281137364,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df2b65c5ac41b86c",
+  "name" : "testInsertActor",
+  "time" : {
+    "start" : 1675281137468,
+    "stop" : 1675281137487,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70c726f4c481cf91",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281115934,
+    "stop" : 1675281116152,
+    "duration" : 218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85044ebdeac75bbe",
+  "name" : "testInsertActor",
+  "time" : {
+    "start" : 1675281137489,
+    "stop" : 1675281137498,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa9a0bf930e87945",
+  "name" : "testGetUserWithValidIdAndRegister",
+  "time" : {
+    "start" : 1675281134741,
+    "stop" : 1675281135189,
+    "duration" : 448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc2b7e6d6df4b5f7",
+  "name" : "testSingleUserNotFound",
+  "time" : {
+    "start" : 1675281123713,
+    "stop" : 1675281123927,
+    "duration" : 214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b4f9728ce7a90e",
+  "name" : "testSingleUserNotFound",
+  "time" : {
+    "start" : 1675281123930,
+    "stop" : 1675281124152,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcd1d16433f06487",
+  "name" : "testResetPasswordCancelButton",
+  "time" : {
+    "start" : 1675281247932,
+    "stop" : 1675281249909,
+    "duration" : 1977
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cd92d150abf2f59",
+  "name" : "testPatchUserWithId2",
+  "time" : {
+    "start" : 1675281128069,
+    "stop" : 1675281128289,
+    "duration" : 220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2faf0f9bb05c4c5f",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281114100,
+    "stop" : 1675281114315,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a27f7e2eced59b9f",
+  "name" : "testTablesNumberOfRows",
+  "time" : {
+    "start" : 1675281137673,
+    "stop" : 1675281137674,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d2f8812c9476fd2",
+  "name" : "testPatchUserWithId2",
+  "time" : {
+    "start" : 1675281128953,
+    "stop" : 1675281129179,
+    "duration" : 226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4510778cd0df1924",
+  "name" : "testPutUserWithId2",
+  "time" : {
+    "start" : 1675281130496,
+    "stop" : 1675281130703,
+    "duration" : 207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "650a97b771e2a28a",
+  "name" : "testGetUserWithValidIdAndRegister",
+  "time" : {
+    "start" : 1675281134305,
+    "stop" : 1675281134738,
+    "duration" : 433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8be91bcb6e1ff9f7",
+  "name" : "testGetUserWithValidIdAndRegister",
+  "time" : {
+    "start" : 1675281132602,
+    "stop" : 1675281133018,
+    "duration" : 416
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ba270951bdf8633",
+  "name" : "testSingleResourceNotFound",
+  "time" : {
+    "start" : 1675281122389,
+    "stop" : 1675281122602,
+    "duration" : 213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d887c9525a728249",
+  "name" : "testNumberOfActiveCustomersFromWestBengaliIsEqualTo8",
+  "time" : {
+    "start" : 1675281137595,
+    "stop" : 1675281137599,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d1fdca0036b62b3",
+  "name" : "testDataFirstNameOnPage2HasMichaelAndLindsay",
+  "time" : {
+    "start" : 1675281117515,
+    "stop" : 1675281117697,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "705e66b89f32a293",
+  "name" : "testTablesNumberOfRows",
+  "time" : {
+    "start" : 1675281137664,
+    "stop" : 1675281137666,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55fd7e9bd7b8700e",
+  "name" : "testSingleUserNotFound",
+  "time" : {
+    "start" : 1675281124775,
+    "stop" : 1675281124982,
+    "duration" : 207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4caca707ff8bcbbc",
+  "name" : "testDeleteActorById",
+  "time" : {
+    "start" : 1675281137327,
+    "stop" : 1675281137332,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8b89d8f2f7d7a0d",
+  "name" : "testRegisterWithEmail",
+  "time" : {
+    "start" : 1675281136664,
+    "stop" : 1675281136890,
+    "duration" : 226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d058815d7e1f8de",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281114541,
+    "stop" : 1675281114772,
+    "duration" : 231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "281115a4a1a60505",
+  "name" : "testTablesNumberOfRows",
+  "time" : {
+    "start" : 1675281137657,
+    "stop" : 1675281137659,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5642f704e334b2a",
+  "name" : "testSingleResourceNotFound",
+  "time" : {
+    "start" : 1675281121956,
+    "stop" : 1675281122167,
     "duration" : 211
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "70c1f4aba3747d36",
-  "name" : "test_01_post",
+  "uid" : "ff918e166b905271",
+  "name" : "testLoginWithEmailAndNoPassword",
   "time" : {
-    "start" : 1675002531276,
-    "stop" : 1675002531807,
-    "duration" : 531
+    "start" : 1675281126690,
+    "stop" : 1675281126915,
+    "duration" : 225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7386de7a8e86ca40",
+  "name" : "testInsertActor",
+  "time" : {
+    "start" : 1675281137533,
+    "stop" : 1675281137543,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f68f7924b146cf26",
+  "name" : "testSingleResourceNotFound",
+  "time" : {
+    "start" : 1675281121511,
+    "stop" : 1675281121733,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad673c0a33146b0e",
+  "name" : "testZeroCageActorExists",
+  "time" : {
+    "start" : 1675281137700,
+    "stop" : 1675281137702,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f618d0555b3bd8c0",
+  "name" : "testDeleteActorById",
+  "time" : {
+    "start" : 1675281137366,
+    "stop" : 1675281137370,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41eaf85d97b92715",
+  "name" : "testJobAccountAssistantExist",
+  "time" : {
+    "start" : 1675281165792,
+    "stop" : 1675281167650,
+    "duration" : 1858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a26ba7320dfb8",
+  "name" : "testLoginWithUnregisteredUser",
+  "time" : {
+    "start" : 1675281126948,
+    "stop" : 1675281127182,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1732dbd619898669",
+  "name" : "testInsertActor",
+  "time" : {
+    "start" : 1675281137464,
+    "stop" : 1675281137466,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef91529fd2a06e0c",
+  "name" : "testSingleUserNotFound",
+  "time" : {
+    "start" : 1675281124568,
+    "stop" : 1675281124770,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46ca7f0a2d9c89a3",
+  "name" : "testRegisterWithEmail",
+  "time" : {
+    "start" : 1675281136892,
+    "stop" : 1675281137104,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eecba87a0e0465a6",
+  "name" : "testUpdateActorTable",
+  "time" : {
+    "start" : 1675281137760,
+    "stop" : 1675281137766,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da70ccc45ef653b6",
+  "name" : "testUpdateActorTable",
+  "time" : {
+    "start" : 1675281137749,
+    "stop" : 1675281137758,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b7f291ef7caba7a",
+  "name" : "testGetUserWithValidIdAndRegister",
+  "time" : {
+    "start" : 1675281130936,
+    "stop" : 1675281131366,
+    "duration" : 430
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4294475a72e7e17",
+  "name" : "testPatchUserWithId2",
+  "time" : {
+    "start" : 1675281128515,
+    "stop" : 1675281128734,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85d03db8306e4f43",
+  "name" : "testDeleteActorById",
+  "time" : {
+    "start" : 1675281137353,
+    "stop" : 1675281137358,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b275f2b6bc188df",
+  "name" : "testDelayedResponse",
+  "time" : {
+    "start" : 1675281118068,
+    "stop" : 1675281120407,
+    "duration" : 2339
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d3155ecea2265c0",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281115711,
+    "stop" : 1675281115930,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b3a6f5f9c29a7a9",
+  "name" : "testInsertActor",
+  "time" : {
+    "start" : 1675281137517,
+    "stop" : 1675281137523,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9178628ce4354c67",
+  "name" : "testGetUserWithValidIdAndRegister",
+  "time" : {
+    "start" : 1675281135192,
+    "stop" : 1675281135580,
+    "duration" : 388
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f9a191f615ed7f3",
+  "name" : "testLoginWithEmailAndNoPassword",
+  "time" : {
+    "start" : 1675281125578,
+    "stop" : 1675281126003,
+    "duration" : 425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8da9dff5dc9d897c",
+  "name" : "testSingleResourceNotFound",
+  "time" : {
+    "start" : 1675281122605,
+    "stop" : 1675281122815,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "504e026bc5b0670b",
+  "name" : "testPostUser",
+  "time" : {
+    "start" : 1675281129216,
+    "stop" : 1675281129431,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "857f262e3e5f768c",
+  "name" : "testInsertActor",
+  "time" : {
+    "start" : 1675281137562,
+    "stop" : 1675281137568,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "312dfa9ba2bfc93b",
+  "name" : "testLoginNoInput",
+  "time" : {
+    "start" : 1675281238329,
+    "stop" : 1675281238726,
+    "duration" : 397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c94f96496cbf966c",
+  "name" : "testDeleteFromActorTableWhereIdIsHigher200",
+  "time" : {
+    "start" : 1675281137378,
+    "stop" : 1675281137379,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5014f5c310e7fe8f",
+  "name" : "testPostUser",
+  "time" : {
+    "start" : 1675281129639,
+    "stop" : 1675281129849,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f49f02706d2c887",
+  "name" : "testDeleteActorById",
+  "time" : {
+    "start" : 1675281137373,
+    "stop" : 1675281137377,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4d4ada76161fdf3",
+  "name" : "testGetUserWithValidIdAndRegister",
+  "time" : {
+    "start" : 1675281131751,
+    "stop" : 1675281132166,
+    "duration" : 415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92236017f158d0ec",
+  "name" : "testGetUserWithValidIdAndRegister",
+  "time" : {
+    "start" : 1675281135583,
+    "stop" : 1675281135999,
+    "duration" : 416
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6e1d1aa96ba241f",
+  "name" : "testPutUserWithId2",
+  "time" : {
+    "start" : 1675281130287,
+    "stop" : 1675281130495,
+    "duration" : 208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3daaaa52af54312",
+  "name" : "testTablesNumberOfRows",
+  "time" : {
+    "start" : 1675281137660,
+    "stop" : 1675281137662,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45a9abeefa3c7cfe",
+  "name" : "testListResourcePage2",
+  "time" : {
+    "start" : 1675281117262,
+    "stop" : 1675281117513,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e2ffaafded9e6dd",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281115246,
+    "stop" : 1675281115470,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a684fe154422b124",
+  "name" : "testAdminTopbarMenuOrganizationDropdownSizeIs3",
+  "time" : {
+    "start" : 1675281152089,
+    "stop" : 1675281152586,
+    "duration" : 497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7aad55f77f9e4d17",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281115019,
+    "stop" : 1675281115242,
+    "duration" : 223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9e3341a664cffef",
+  "name" : "testSingleResourceNotFound",
+  "time" : {
+    "start" : 1675281120633,
+    "stop" : 1675281120842,
+    "duration" : 209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5aeaf8eed748d7db",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281112651,
+    "stop" : 1675281113842,
+    "duration" : 1191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f01af1a58f28845",
+  "name" : "testResetPasswordNoInput",
+  "time" : {
+    "start" : 1675281252833,
+    "stop" : 1675281254003,
+    "duration" : 1170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "979caa8af094944b",
+  "name" : "testPutUserWithId2",
+  "time" : {
+    "start" : 1675281129857,
+    "stop" : 1675281130072,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a76d70ad27f1b53f",
+  "name" : "testSingleResourceNotFound",
+  "time" : {
+    "start" : 1675281121051,
+    "stop" : 1675281121281,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1860968e7845f88",
+  "name" : "testPutUserWithId2",
+  "time" : {
+    "start" : 1675281130074,
+    "stop" : 1675281130285,
+    "duration" : 211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2e32ff6bac1d4f1",
+  "name" : "testRegisterWithEmail",
+  "time" : {
+    "start" : 1675281136016,
+    "stop" : 1675281136216,
+    "duration" : 200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c922b13972daebd9",
+  "name" : "testLoginWithEmailAndNoPassword",
+  "time" : {
+    "start" : 1675281126228,
+    "stop" : 1675281126465,
+    "duration" : 237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7084dd670395c5d7",
+  "name" : "testSingleResourceWithId2",
+  "time" : {
+    "start" : 1675281122821,
+    "stop" : 1675281123051,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "beb53d290097cfc9",
+  "name" : "testDeleteActorById",
+  "time" : {
+    "start" : 1675281137341,
+    "stop" : 1675281137346,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a14b4dce0e37b2e",
+  "name" : "testLogin",
+  "time" : {
+    "start" : 1675281233718,
+    "stop" : 1675281235672,
+    "duration" : 1954
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fbf481df7673104",
+  "name" : "testListResourcePage1",
+  "time" : {
+    "start" : 1675281116601,
+    "stop" : 1675281117260,
+    "duration" : 659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce461e864fa33280",
+  "name" : "testYouTubeLink",
+  "time" : {
+    "start" : 1675281258013,
+    "stop" : 1675281262460,
+    "duration" : 4447
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "232f2873ccb0401a",
+  "name" : "testInsertActor",
+  "time" : {
+    "start" : 1675281137556,
+    "stop" : 1675281137561,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7684dc6d9745d5a5",
+  "name" : "testAdminTopbarMenuJobDropdownSizeIs5",
+  "time" : {
+    "start" : 1675281145851,
+    "stop" : 1675281146183,
+    "duration" : 332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1885d667c6fde0f1",
+  "name" : "testLoginWithEmailAndNoPassword",
+  "time" : {
+    "start" : 1675281126005,
+    "stop" : 1675281126226,
+    "duration" : 221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27522d0130c2dd5f",
+  "name" : "testTablesNumberOfRows",
+  "time" : {
+    "start" : 1675281137667,
+    "stop" : 1675281137668,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f47407d3b0df43c",
+  "name" : "testDeleteActorById",
+  "time" : {
+    "start" : 1675281137320,
+    "stop" : 1675281137325,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bb858fc836a4b1",
+  "name" : "testInsertActor",
+  "time" : {
+    "start" : 1675281137525,
+    "stop" : 1675281137531,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a399af8b1013b23",
+  "name" : "testInsert10Records",
+  "time" : {
+    "start" : 1675281137434,
+    "stop" : 1675281137442,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93da9fb00123be18",
+  "name" : "testDeleteActorById",
+  "time" : {
+    "start" : 1675281137347,
+    "stop" : 1675281137352,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ad49f953fe38f81",
+  "name" : "testJobAdd",
+  "time" : {
+    "start" : 1675281184895,
+    "stop" : 1675281191345,
+    "duration" : 6450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f317a23d49b17a6",
+  "name" : "testJobAdd",
+  "time" : {
+    "start" : 1675281199352,
+    "stop" : 1675281205951,
+    "duration" : 6599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "606535af919f2cc8",
+  "name" : "testLoginWithUnregisteredUser",
+  "time" : {
+    "start" : 1675281127405,
+    "stop" : 1675281127621,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "798a688f44a6c7c",
+  "name" : "testMaintenanceSearch",
+  "time" : {
+    "start" : 1675281266894,
+    "stop" : 1675281267319,
+    "duration" : 425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3b68e8609e0de2",
+  "name" : "testDataId0OnPage2Is7",
+  "time" : {
+    "start" : 1675281117702,
+    "stop" : 1675281117892,
+    "duration" : 190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a93e20d40782f8ee",
+  "name" : "testGetUserWithValidIdAndRegister",
+  "time" : {
+    "start" : 1675281133468,
+    "stop" : 1675281133880,
+    "duration" : 412
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "308f27adb9b8eacb",
+  "name" : "testJobAdd",
+  "time" : {
+    "start" : 1675281211586,
+    "stop" : 1675281217928,
+    "duration" : 6342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bb0bbc58218a631",
+  "name" : "testRegisterWithEmail",
+  "time" : {
+    "start" : 1675281136454,
+    "stop" : 1675281136662,
+    "duration" : 208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15641e27faff97b1",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281116155,
+    "stop" : 1675281116375,
+    "duration" : 220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ac2cd066b78f9a5",
+  "name" : "testGetUserWithValidIdAndRegister",
+  "time" : {
+    "start" : 1675281132169,
+    "stop" : 1675281132598,
+    "duration" : 429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd80b866490c0e94",
+  "name" : "testDataId1OnPage2Is8",
+  "time" : {
+    "start" : 1675281117893,
+    "stop" : 1675281118065,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6df9eef95490b9d3",
+  "name" : "testSingleUserNotFound",
+  "time" : {
+    "start" : 1675281123298,
+    "stop" : 1675281123496,
+    "duration" : 198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6622d9cd332aa5c",
+  "name" : "testGetUserWithValidIdAndRegister",
+  "time" : {
+    "start" : 1675281131368,
+    "stop" : 1675281131748,
+    "duration" : 380
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c2e9b44c9a443b3",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281115473,
+    "stop" : 1675281115707,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "369df3e564488b04",
+  "name" : "testPatchUserWithId2",
+  "time" : {
+    "start" : 1675281128735,
+    "stop" : 1675281128952,
+    "duration" : 217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34208e7169138334",
+  "name" : "testUpdateActorTable",
+  "time" : {
+    "start" : 1675281137737,
+    "stop" : 1675281137748,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c51f6a90266a6802",
+  "name" : "testSingleUserDataWithId2",
+  "time" : {
+    "start" : 1675281123056,
+    "stop" : 1675281123296,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9baa2e2d97c0892",
+  "name" : "testLoginWithEmailAndNoPassword",
+  "time" : {
+    "start" : 1675281126468,
+    "stop" : 1675281126687,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b4d4b2057812c46",
+  "name" : "testPutUserWithId2",
+  "time" : {
+    "start" : 1675281130705,
+    "stop" : 1675281130933,
+    "duration" : 228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2593f4b4871435c",
+  "name" : "testDeleteActorById",
+  "time" : {
+    "start" : 1675281137334,
+    "stop" : 1675281137339,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "800c177e76a22f2a",
+  "name" : "testPostUser",
+  "time" : {
+    "start" : 1675281129432,
+    "stop" : 1675281129637,
+    "duration" : 205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36c3748aa7b14067",
+  "name" : "testInsertActor",
+  "time" : {
+    "start" : 1675281137546,
+    "stop" : 1675281137554,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "749ac5c4f3150f5e",
+  "name" : "testSingleResourceNotFound",
+  "time" : {
+    "start" : 1675281121737,
+    "stop" : 1675281121952,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51377edaa9b56da",
+  "name" : "testJobAdd",
+  "time" : {
+    "start" : 1675281173149,
+    "stop" : 1675281179328,
+    "duration" : 6179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9cc080a8b31e2e5",
+  "name" : "testSingleUserNotFound",
+  "time" : {
+    "start" : 1675281123498,
+    "stop" : 1675281123710,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3de8fc8bf63b02ce",
+  "name" : "testGetUserWithValidIdAndRegister",
+  "time" : {
+    "start" : 1675281133882,
+    "stop" : 1675281134303,
+    "duration" : 421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2898dcd2fcb41f9",
+  "name" : "testDeleteUserWithId",
+  "time" : {
+    "start" : 1675281114317,
+    "stop" : 1675281114537,
+    "duration" : 220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9606b9e9ec71ae6",
+  "name" : "testRegisterWithEmail",
+  "time" : {
+    "start" : 1675281136223,
+    "stop" : 1675281136452,
+    "duration" : 229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31561a3c2477fbc6",
+  "name" : "testSingleResourceNotFound",
+  "time" : {
+    "start" : 1675281120844,
+    "stop" : 1675281121048,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6ddb647ff74ca07",
+  "name" : "testInsertActor",
+  "time" : {
+    "start" : 1675281137502,
+    "stop" : 1675281137515,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "502e2a68eb54c5f0",
+  "name" : "testJobAdd",
+  "time" : {
+    "start" : 1675281224362,
+    "stop" : 1675281230424,
+    "duration" : 6062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22ad880309ac41d9",
+  "name" : "testNumberOfStoresInThailandIs3",
+  "time" : {
+    "start" : 1675281137601,
+    "stop" : 1675281137603,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c2da0f461cd6e6e",
+  "name" : "testRentalIdPaymentSumIs12_95",
+  "time" : {
+    "start" : 1675281137605,
+    "stop" : 1675281137635,
+    "duration" : 30
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,6 +1,13 @@
 package backendtests;
 
-public class BaseTest {
-    protected String urlPath = "https://reqres.in/api/";
+import io.restassured.RestAssured;
+import org.testng.annotations.BeforeSuite;
 
+public class BaseTest {
+    protected String baseURI = "https://reqres.in/api/";
+
+    @BeforeSuite
+    public void setBaseURI() {
+        RestAssured.baseURI = baseURI;
+    }
 }

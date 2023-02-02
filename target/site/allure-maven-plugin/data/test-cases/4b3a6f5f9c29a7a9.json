@@ -1,0 +1,99 @@
+{
+  "uid" : "4b3a6f5f9c29a7a9",
+  "name" : "testInsertActor",
+  "fullName" : "databasetests.InsertTest.testInsertActor",
+  "historyId" : "da5a225dcf4fc3374b5c1fa54040d6f9",
+  "time" : {
+    "start" : 1675281137517,
+    "stop" : 1675281137523,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "connect",
+    "time" : {
+      "start" : 1675281137383,
+      "stop" : 1675281137401,
+      "duration" : 18
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "disconnect",
+    "time" : {
+      "start" : 1675281137569,
+      "stop" : 1675281137569,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "databasetests.InsertTest"
+  }, {
+    "name" : "testClass",
+    "value" : "databasetests.InsertTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testInsertActor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Database Tests"
+  }, {
+    "name" : "suite",
+    "value" : "DB tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "databasetests.InsertTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "40509@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Toby"
+  }, {
+    "name" : "arg1",
+    "value" : "Bradtke"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b3a6f5f9c29a7a9.json",
+  "parameterValues" : [ "Toby", "Bradtke" ]
+}

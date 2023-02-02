@@ -1,0 +1,93 @@
+{
+  "uid" : "1c2da0f461cd6e6e",
+  "name" : "testRentalIdPaymentSumIs12_95",
+  "fullName" : "databasetests.JOINTest.testRentalIdPaymentSumIs12_95",
+  "historyId" : "622387dbcfdaa9ce18a2abfefefcd23",
+  "time" : {
+    "start" : 1675281137605,
+    "stop" : 1675281137635,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "connect",
+    "time" : {
+      "start" : 1675281137570,
+      "stop" : 1675281137593,
+      "duration" : 23
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "disconnect",
+    "time" : {
+      "start" : 1675281137636,
+      "stop" : 1675281137636,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "databasetests.JOINTest"
+  }, {
+    "name" : "testClass",
+    "value" : "databasetests.JOINTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRentalIdPaymentSumIs12_95"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Database Tests"
+  }, {
+    "name" : "suite",
+    "value" : "DB tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "databasetests.JOINTest"
+  }, {
+    "name" : "host",
+    "value" : "thug-macbook-98347.local"
+  }, {
+    "name" : "thread",
+    "value" : "40509@thug-macbook-98347.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c2da0f461cd6e6e.json",
+  "parameterValues" : [ ]
+}
