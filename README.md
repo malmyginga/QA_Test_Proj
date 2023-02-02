@@ -31,31 +31,52 @@
 
 [Ссылка на веб сайт](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)
 
-[Ссылка на базу данных](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
+[Ссылка на описание базы данных](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
+
+[Ссылка на скачивание базы данных](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
 
 [Ссылка на ERD базы данных](https://www.postgresqltutorial.com/wp-content/uploads/2018/03/printable-postgresql-sample-database-diagram.pdf)
 
 ## Запуск тестов
 
+### Тестовые сьюты
+
 В проекте есть 4 тестовых сьюта:
 
 * BackendSuite.xml. В нем представлены все тесты, которые относятся к
 тестированию API.
-* DataBaseSuite.xml. В нем представлены все тесты, которые относятся к 
+* FrontendSuite.xml. В нем представлены все тесты, которые относятся к 
 тестированию UI в Web.
-* FrontendSuite.xml. В нем представлены все тесты, которые относятся к
+* DataBaseSuite.xml. В нем представлены все тесты, которые относятся к
 тестированию локально поднятой базы данных.
 * TestNG.xml. В нем представлены все тесты проекта.
 
+### Как запустить тесты
+
+Варианты:
+
+* Запустить через консоль сделав mvn clean test. Прогонятся все тесты под default suite.
+* Нажать правой кнопкой мыши на выбранный сьют в среде разработки и выбрать "Run".
+
 ## Тестирование локальной базы данных
 
-* По приведенной выше ссылки установите базу данных PostgreSQL dvdrental
+По приведенной выше ссылке загрузите базу данных dvdrental в 
+PostgreSQL согласно инструкции [Load PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/)
 * В файле ./src/test/resources/database.properties укажите данные установленной локально
-базы данных
+базы данных (локальный адрес базы данных, имя пользователя и пароль для доступа к базе)
 
 ## Построение отчета
+
+Примечание: при запуске отдельных тестов в проекте или запуске тестовых сьютов Allure Framework
+будет генерировать данные в .json формате о запущенных тестах по пути ./target/allure-results.
+Если запускать подряд несколько раз одни и те тест сьюты в итоговом отчете одни и те же тесты
+будут повторяться по несколько раз. Чтобы сделать "чистый прогон" и получить "чистый отчет", перед
+тем как запускать тесты необходимо сделать mvn clean, который очистит данные о предыдущих запусках.
 
 1. Запустить какой-то из тестовых сьютов
 2. mvn allure:report
 3. Открыть в Firefox target/site/index.html
 4. mvn clean для очистки данных собранных Allure для текущих тестов
+
+## Время запуска всех тестов
+Запуск всех тестов занимает около 3 минут на локальной машине.
