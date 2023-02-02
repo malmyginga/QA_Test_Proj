@@ -1,6 +1,7 @@
 /.allure
 /.idea
 /.target
-/.build
+/build
 /test-output
 .DS_Store
+*/.DS_Store
