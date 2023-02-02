@@ -29,7 +29,7 @@
 
 [Ссылка на API](https://reqres.in)
 
-[Ссылка на веб сайт](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)
+[Ссылка на веб-сайт](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)
 
 [Ссылка на описание базы данных](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
 
@@ -69,7 +69,7 @@ PostgreSQL согласно инструкции [Load PostgreSQL Sample Databas
 
 Примечание: при запуске отдельных тестов в проекте или запуске тестовых сьютов Allure Framework
 будет генерировать данные в .json формате о запущенных тестах по пути ./target/allure-results.
-Если запускать подряд несколько раз одни и те тест сьюты в итоговом отчете одни и те же тесты
+Если запускать подряд несколько раз одни и те же тест сьюты в итоговом отчете одни и те же тесты
 будут повторяться по несколько раз. Чтобы сделать "чистый прогон" и получить "чистый отчет", перед
 тем как запускать тесты необходимо сделать mvn clean, который очистит данные о предыдущих запусках.
 
