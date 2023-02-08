@@ -15,12 +15,13 @@ public class SelectTest extends BaseTest {
         "from actor " +
         "where first_name = 'Zero' and last_name = 'Cage'";
         try {
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(query);
-            resultSet.next();
-            int count = resultSet.getInt(1);
-            resultSet.close();
-            statement.close();
+
+            int count;
+            try (Statement statement = connection.createStatement();
+                 ResultSet resultSet = statement.executeQuery(query)) {
+                resultSet.next();
+                count = resultSet.getInt(1);
+            }
 
             Assert.assertEquals(count, 1);
 

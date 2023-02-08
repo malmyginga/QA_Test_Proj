@@ -16,6 +16,7 @@ public class BaseTest {
 
     @AfterClass
     public void disconnect() {
+        
         try {
             connection.close();
         } catch (SQLException exception) {

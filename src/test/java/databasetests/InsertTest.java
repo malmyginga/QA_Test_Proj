@@ -39,31 +39,33 @@ public class InsertTest extends BaseTest {
         String insertQuery = "insert into actor(first_name, last_name) values(?, ?)";
         String selectQuery = "select count(*) from actor where first_name=? and last_name=?";
         String deleteQuery = "delete from actor where first_name=? and last_name=?";
-        long id = 0;
+
         try {
+
             //Insert
-            PreparedStatement insertStatement = connection.prepareStatement(insertQuery);
-            insertStatement.setString(1, firstName);
-            insertStatement.setString(2, lastName);
-            int affectedRows = insertStatement.executeUpdate();
-            insertStatement.close();
+            try (PreparedStatement insertStatement = connection.prepareStatement(insertQuery)) {
+                insertStatement.setString(1, firstName);
+                insertStatement.setString(2, lastName);
+                insertStatement.executeUpdate();
+            }
 
             //Select
-            PreparedStatement selectStatement = connection.prepareStatement(selectQuery);
-            selectStatement.setString(1, firstName);
-            selectStatement.setString(2, lastName);
-            ResultSet resultSet = selectStatement.executeQuery();
-            resultSet.next();
-            Assert.assertEquals(resultSet.getInt(1), 1);
-            resultSet.close();
-            selectStatement.close();
+            try (PreparedStatement selectStatement = connection.prepareStatement(selectQuery)) {
+                selectStatement.setString(1, firstName);
+                selectStatement.setString(2, lastName);
+
+                try (ResultSet resultSet = selectStatement.executeQuery()) {
+                    resultSet.next();
+                    Assert.assertEquals(resultSet.getInt(1), 1);
+                }
+            }
 
             //Delete
-            PreparedStatement deleteStatement = connection.prepareStatement(deleteQuery);
-            deleteStatement.setString(1, firstName);
-            deleteStatement.setString(2, lastName);
-            deleteStatement.executeUpdate();
-            deleteStatement.close();
+            try (PreparedStatement deleteStatement = connection.prepareStatement(deleteQuery)) {
+                deleteStatement.setString(1, firstName);
+                deleteStatement.setString(2, lastName);
+                deleteStatement.executeUpdate();
+            }
 
         } catch (SQLException exception) {
             throw new RuntimeException(exception);
@@ -78,7 +80,7 @@ public class InsertTest extends BaseTest {
 
         Faker faker = new Faker();
         for (Object[] actor: actorData) {
-            List<Actor> actors = new ArrayList<Actor>(); // 2 - firstName and lastName
+            List<Actor> actors = new ArrayList<>(); // 2 - firstName and lastName
             for (int i = 0; i < numberOfRecords; i++) {
                 String firstName = faker.name().firstName();
                 String lastName = faker.name().lastName();
@@ -97,39 +99,42 @@ public class InsertTest extends BaseTest {
 
         int count = 0;
         try {
-            PreparedStatement insertStatement = connection.prepareStatement(insertQuery);
 
-            for (Actor actor: actors) {
-                insertStatement.setString(1, actor.getFirstName());
-                insertStatement.setString(2, actor.getLastName());
-                insertStatement.addBatch();
+            //Insert
+            try (PreparedStatement insertStatement = connection.prepareStatement(insertQuery)) {
+                for (Actor actor: actors) {
+                    insertStatement.setString(1, actor.getFirstName());
+                    insertStatement.setString(2, actor.getLastName());
+                    insertStatement.addBatch();
+                }
+                insertStatement.executeBatch();
             }
-            insertStatement.executeBatch();
-            insertStatement.close();
 
-            PreparedStatement selectStatement = connection.prepareStatement(selectQuery, Statement.RETURN_GENERATED_KEYS);
-            for (Actor actor: actors) {
-                selectStatement.setString(1, actor.getFirstName());
-                selectStatement.setString(2, actor.getLastName());
+            //Select
+            try (PreparedStatement selectStatement = connection.prepareStatement(selectQuery, Statement.RETURN_GENERATED_KEYS)) {
+                for (Actor actor: actors) {
+                    selectStatement.setString(1, actor.getFirstName());
+                    selectStatement.setString(2, actor.getLastName());
 
-                ResultSet resultSet = selectStatement.executeQuery();
-                resultSet.next();
-                count += resultSet.getInt(1);
-                resultSet.close();
+                    try (ResultSet resultSet = selectStatement.executeQuery()) {
+                        resultSet.next();
+                        count += resultSet.getInt(1);
+                    }
+                }
             }
-            selectStatement.close();
 
             Assert.assertEquals(count, 10);
 
-            PreparedStatement deleteStatement = connection.prepareStatement(deleteQuery);
-            for (Actor actor: actors) {
-                deleteStatement.setString(1, actor.getFirstName());
-                deleteStatement.setString(2, actor.getLastName());
-                deleteStatement.addBatch();
+            //Delete
+            try (PreparedStatement deleteStatement = connection.prepareStatement(deleteQuery)) {
+                for (Actor actor: actors) {
+                    deleteStatement.setString(1, actor.getFirstName());
+                    deleteStatement.setString(2, actor.getLastName());
+                    deleteStatement.addBatch();
+                }
+                deleteStatement.executeBatch();
             }
 
-            deleteStatement.executeBatch();
-            deleteStatement.close();
         } catch (SQLException exception) {
             throw new RuntimeException(exception);
         }

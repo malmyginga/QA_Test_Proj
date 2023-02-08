@@ -16,14 +16,14 @@ public class JOINTest extends BaseTest {
         "group by r.rental_id " +
         "having count(*) > 1";
 
-        double paymentSum = 0;
+        double paymentSum;
         try {
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(query);
-            resultSet.next();
-            paymentSum = resultSet.getDouble(2);
-            resultSet.close();
-            statement.close();
+
+            try (Statement statement = connection.createStatement();
+                 ResultSet resultSet = statement.executeQuery(query)) {
+                resultSet.next();
+                paymentSum = resultSet.getDouble(2);
+            }
 
             Assert.assertEquals(paymentSum, 12.95);
 
@@ -43,12 +43,13 @@ public class JOINTest extends BaseTest {
         "group by district";
 
         try {
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(query);
-            resultSet.next();
-            int count = resultSet.getInt(1);
-            resultSet.close();
-            statement.close();
+            int count;
+            try (Statement statement = connection.createStatement();
+                 ResultSet resultSet = statement.executeQuery(query)) {
+
+                resultSet.next();
+                count = resultSet.getInt(1);
+            }
 
             Assert.assertEquals(count, 8);
 
@@ -70,12 +71,13 @@ public class JOINTest extends BaseTest {
         "group by country";
 
         try {
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(query);
-            resultSet.next();
-            int count = resultSet.getInt(1);
-            resultSet.close();
-            statement.close();
+
+            int count;
+            try (Statement statement = connection.createStatement();
+                 ResultSet resultSet = statement.executeQuery(query)) {
+                resultSet.next();
+                count = resultSet.getInt(1);
+            }
 
             Assert.assertEquals(count, 3);
 

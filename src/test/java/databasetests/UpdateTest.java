@@ -39,34 +39,43 @@ public class UpdateTest extends BaseTest {
 
         try {
 
-            PreparedStatement insertStatement = connection.prepareStatement(insertQuery, Statement.RETURN_GENERATED_KEYS);
-            insertStatement.setString(1, firstName);
-            insertStatement.setString(2, lastName);
-            insertStatement.executeUpdate();
-            ResultSet insertResultSet = insertStatement.getGeneratedKeys();
-            insertResultSet.next();
-            actorId = insertResultSet.getInt(1);
-            insertResultSet.close();
-            insertStatement.close();
+            //Insert
+            try (PreparedStatement insertStatement = connection.prepareStatement(insertQuery, Statement.RETURN_GENERATED_KEYS)) {
 
-            PreparedStatement updateStatement = connection.prepareStatement(updateQuery);
-            updateStatement.setString(1, lastNameUpdated);
-            updateStatement.setInt(2, actorId);
-            updateStatement.executeUpdate();
-            updateStatement.close();
+                insertStatement.setString(1, firstName);
+                insertStatement.setString(2, lastName);
+                insertStatement.executeUpdate();
 
-            PreparedStatement selectStatement = connection.prepareStatement(selectQuery);
-            selectStatement.setInt(1, actorId);
-            ResultSet selectResultSet = selectStatement.executeQuery();
-            selectResultSet.next();
-            Assert.assertEquals(selectResultSet.getString(1), lastNameUpdated);
-            selectResultSet.close();
-            selectStatement.close();
+                try (ResultSet insertResultSet = insertStatement.getGeneratedKeys()) {
+                    insertResultSet.next();
+                    actorId = insertResultSet.getInt(1);
+                }
+            }
 
-            PreparedStatement deleteStatement = connection.prepareStatement(deleteQuery);
-            deleteStatement.setInt(1, actorId);
-            deleteStatement.executeUpdate();
-            deleteStatement.close();
+            //Update
+            try (PreparedStatement updateStatement = connection.prepareStatement(updateQuery)) {
+                updateStatement.setString(1, lastNameUpdated);
+                updateStatement.setInt(2, actorId);
+                updateStatement.executeUpdate();
+            }
+
+            //Select
+            try (PreparedStatement selectStatement = connection.prepareStatement(selectQuery)) {
+
+                selectStatement.setInt(1, actorId);
+
+                try (ResultSet selectResultSet = selectStatement.executeQuery()) {
+                    selectResultSet.next();
+                    Assert.assertEquals(selectResultSet.getString(1), lastNameUpdated);
+                }
+            }
+
+            //Delete
+            try (PreparedStatement deleteStatement = connection.prepareStatement(deleteQuery)) {
+                deleteStatement.setInt(1, actorId);
+                deleteStatement.executeUpdate();
+            }
+
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

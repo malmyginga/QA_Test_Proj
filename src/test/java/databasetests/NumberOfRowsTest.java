@@ -25,15 +25,16 @@ public class NumberOfRowsTest extends BaseTest {
     @Test(dataProvider = "tablesSizes")
     public void testTablesNumberOfRows(String tableName, int numberOfRows) {
         String query = "select count(*) from " + tableName;
-        int count = 0;
+        int count;
 
         try {
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(query);
-            resultSet.next();
-            count = resultSet.getInt(1);
-            resultSet.close();
-            statement.close();
+
+            try (Statement statement = connection.createStatement();
+                 ResultSet resultSet = statement.executeQuery(query)) {
+                resultSet.next();
+                count = resultSet.getInt(1);
+            }
+
         } catch (SQLException exception) {
             throw new RuntimeException(exception);
         }
