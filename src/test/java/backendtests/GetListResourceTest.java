@@ -17,6 +17,7 @@ public class GetListResourceTest extends BaseTest {
 
     @Test
     public void testListResourcePage1() {
+
         given()
         .when()
             .get()

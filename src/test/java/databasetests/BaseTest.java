@@ -12,6 +12,8 @@ public class BaseTest {
     @BeforeClass
     public void connect() {
         connection = (new DataBaseConnect()).connect();
+        // delete database
+        // fill database with data
     }
 
     @AfterClass

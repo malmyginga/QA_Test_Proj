@@ -22,4 +22,17 @@ public class DeleteTest extends BaseTest {
         .then()
             .statusCode(204);
     }
+
+    @Test(dataProvider = "validIdProvider", dataProviderClass = DataForTest.class)
+    public void testDeleteAndGet(int id) {
+        given()
+            .pathParam("id", id)
+        .when()
+            .delete()
+            .then()
+            .statusCode(204);
+
+
+    }
+
 }

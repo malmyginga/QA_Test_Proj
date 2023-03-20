@@ -1,6 +1,9 @@
 package databasetests;
 
 import com.github.javafaker.Faker;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Story;
+import jdk.jfr.Description;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -10,6 +13,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+@Story("Backend DB")
+@Epic("")
 public class UpdateTest extends BaseTest {
 
     @DataProvider(name = "actorUpdatedDataProvider")
@@ -28,9 +33,12 @@ public class UpdateTest extends BaseTest {
         return actorsData;
     }
 
+    // TODO:
+    @Description("")
     @Test(dataProvider = "actorUpdatedDataProvider")
     public void testUpdateActorTable(String firstName, String lastName, String lastNameUpdated) {
         String insertQuery = "insert into actor(first_name, last_name) values(?, ?)";
+        // check that inserted
         String updateQuery = "update actor set last_name=? where actor_id=?";
         String selectQuery = "select last_name from actor where actor_id=?";
         String deleteQuery = "delete from actor where actor_id=?";
@@ -75,6 +83,8 @@ public class UpdateTest extends BaseTest {
                 deleteStatement.setInt(1, actorId);
                 deleteStatement.executeUpdate();
             }
+
+            //Check if deleted
 
         } catch (SQLException e) {
             throw new RuntimeException(e);

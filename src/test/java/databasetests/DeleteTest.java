@@ -13,6 +13,7 @@ public class DeleteTest extends BaseTest {
     @Test(dataProvider = "actorDataProvider", dataProviderClass = InsertTest.class)
     public void testDeleteActorById(String firstName, String lastName) {
         String insertQuery = "insert into actor(first_name, last_name) values(?, ?)";
+        // check if exist (select)
         String deleteQuery = "delete from actor where actor_id=?";
         String selectQuery = "select count(*) from actor where actor_id=?";
 
